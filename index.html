@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>World Biofuel Policies Map</title>
+<meta name="description" content="Interactive world map of national and regional biofuel policies: blending mandates, targets, and the latest changes. Click a country for details.">
+<style>
+:root {
+  --bg: #f6f8f6; --panel: #ffffff; --ink: #1c2622; --muted: #5d6b64; --line: #dde4df;
+  --accent: #1b6b48; --accent-ink: #ffffff; --sea: #eaf2ee;
+  --c-none: #dfe4e0; --c-enacted: #2a8a5e; --c-planned: #e2a93b; --c-nofixed: #b9c9bf;
+  --bin0: #d6ebdd; --bin1: #a8d5ba; --bin2: #6fb98f; --bin3: #3a9468; --bin4: #1b6b48;
+  --sel: #0d2b1f; --warn-bg: #fff4dc; --warn-ink: #6b4a00; --latest-bg: #e8f4ed; --pend-line: #c9a24a;
+  --shadow: 0 1px 2px rgba(0,0,0,.06), 0 6px 20px rgba(0,0,0,.06);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #101513; --panel: #181f1c; --ink: #e6efe9; --muted: #98a9a0; --line: #2a3530;
+    --accent: #4fc08c; --accent-ink: #0b1a13; --sea: #131a17;
+    --c-none: #28302c; --c-enacted: #3ea878; --c-planned: #d9a038; --c-nofixed: #4a5a51;
+    --bin0: #25503e; --bin1: #2f7355; --bin2: #3e966f; --bin3: #5fb88c; --bin4: #8fdcb4;
+    --sel: #ffffff; --warn-bg: #3a2e12; --warn-ink: #f0d79a; --latest-bg: #1d3028; --pend-line: #b08a35;
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 6px 20px rgba(0,0,0,.35);
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #101513; --panel: #181f1c; --ink: #e6efe9; --muted: #98a9a0; --line: #2a3530;
+  --accent: #4fc08c; --accent-ink: #0b1a13; --sea: #131a17;
+  --c-none: #28302c; --c-enacted: #3ea878; --c-planned: #d9a038; --c-nofixed: #4a5a51;
+  --bin0: #25503e; --bin1: #2f7355; --bin2: #3e966f; --bin3: #5fb88c; --bin4: #8fdcb4;
+  --sel: #ffffff; --warn-bg: #3a2e12; --warn-ink: #f0d79a; --latest-bg: #1d3028; --pend-line: #b08a35;
+  --shadow: 0 1px 2px rgba(0,0,0,.4), 0 6px 20px rgba(0,0,0,.35);
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; }
+body { background: var(--bg); color: var(--ink); font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+a { color: var(--accent); }
+.app { display: grid; grid-template-rows: auto 1fr; height: 100vh; height: 100dvh; }
+header { display: flex; flex-wrap: wrap; gap: 10px 20px; align-items: center; justify-content: space-between; padding: 12px 20px; background: var(--panel); border-bottom: 1px solid var(--line); }
+h1 { margin: 0; font-size: 1.15rem; letter-spacing: -.01em; }
+h1 small { display: block; font-weight: 400; font-size: .78rem; color: var(--muted); letter-spacing: 0; }
+.controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+.seg button { border: 0; background: transparent; color: var(--ink); padding: 8px 12px; font: inherit; font-size: .88rem; cursor: pointer; }
+.seg button + button { border-left: 1px solid var(--line); }
+.seg button[aria-checked="true"] { background: var(--accent); color: var(--accent-ink); font-weight: 600; }
+.seg button:focus-visible, .iconbtn:focus-visible, input:focus-visible, summary:focus-visible, .chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.search { position: relative; }
+.search input { width: 210px; max-width: 100%; padding: 8px 12px; border-radius: 10px; border: 1px solid var(--line); background: var(--bg); color: var(--ink); font: inherit; font-size: .9rem; }
+main { display: grid; grid-template-columns: minmax(0, 1fr) 430px; min-height: 0; }
+.mapwrap { position: relative; background: var(--sea); min-height: 0; overflow: hidden; }
+svg#map { width: 100%; height: 100%; display: block; touch-action: none; cursor: grab; }
+svg#map:active { cursor: grabbing; }
+path.country { stroke: var(--panel); stroke-width: .6px; vector-effect: non-scaling-stroke; fill: var(--c-none); transition: fill .2s; }
+path.covered { cursor: pointer; }
+path.covered:hover { stroke: var(--ink); stroke-width: 1.4px; }
+path.covered:focus-visible { outline: none; stroke: var(--sel); stroke-width: 2px; }
+path.selected { stroke: var(--sel); stroke-width: 2.2px; }
+.pol-enacted { fill: var(--c-enacted) !important; }
+.pol-planned { fill: var(--c-planned) !important; }
+.bin-none { fill: var(--c-nofixed) !important; }
+.bin-0 { fill: var(--bin0) !important; } .bin-1 { fill: var(--bin1) !important; } .bin-2 { fill: var(--bin2) !important; }
+.bin-3 { fill: var(--bin3) !important; } .bin-4 { fill: var(--bin4) !important; }
+.zoom { position: absolute; top: 12px; left: 12px; display: flex; flex-direction: column; gap: 6px; }
+.iconbtn { width: 34px; height: 34px; border-radius: 9px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); font-size: 1.1rem; cursor: pointer; box-shadow: var(--shadow); }
+.legend { position: absolute; left: 12px; bottom: 12px; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; box-shadow: var(--shadow); font-size: .8rem; max-width: min(330px, calc(100% - 24px)); }
+.lg-toggle { display: flex; justify-content: space-between; gap: 14px; width: 100%; margin: 0 0 6px; padding: 0; border: 0; background: none; font: inherit; font-size: .78rem; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); cursor: pointer; text-align: left; }
+.lg-toggle[aria-expanded="false"] { margin: 0; }
+.lg-toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.legend ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+.legend li { display: flex; align-items: center; gap: 8px; }
+.sw { width: 16px; height: 12px; border-radius: 3px; border: 1px solid rgba(0,0,0,.15); flex: none; }
+.legend p { margin: 8px 0 0; color: var(--muted); font-size: .74rem; line-height: 1.35; }
+.tip { position: absolute; pointer-events: none; background: var(--ink); color: var(--bg); padding: 5px 9px; border-radius: 8px; font-size: .8rem; max-width: 260px; opacity: 0; transition: opacity .1s; z-index: 5; }
+aside { background: var(--panel); border-left: 1px solid var(--line); overflow-y: auto; min-height: 0; padding: 20px 22px 32px; }
+aside h2 { margin: 0 0 4px; font-size: 1.45rem; letter-spacing: -.02em; line-height: 1.2; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 14px; }
+.chip { display: inline-block; border: 1px solid var(--line); border-radius: 99px; padding: 3px 11px; font-size: .78rem; background: transparent; color: var(--ink); font-family: inherit; }
+button.chip { cursor: pointer; }
+button.chip:hover { border-color: var(--accent); color: var(--accent); }
+.chip.ok { background: var(--latest-bg); border-color: transparent; }
+.chip.plan { background: var(--warn-bg); color: var(--warn-ink); border-color: transparent; }
+.stats { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 6px 0 12px; }
+.stat { background: var(--bg); border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; }
+.stat b { display: block; font-size: 1.6rem; line-height: 1.1; letter-spacing: -.02em; }
+.stat span { font-size: .76rem; color: var(--muted); }
+.note { color: var(--muted); font-size: .86rem; margin: 6px 0 12px; }
+details.entry { border: 1px solid var(--line); border-radius: 12px; margin: 10px 0; background: var(--panel); }
+details.entry > summary { cursor: pointer; padding: 11px 14px; font-weight: 650; list-style: none; display: flex; justify-content: space-between; gap: 10px; align-items: baseline; }
+details.entry > summary::-webkit-details-marker { display: none; }
+details.entry > summary::after { content: "+"; color: var(--muted); font-weight: 400; font-size: 1.1rem; }
+details.entry[open] > summary::after { content: "–"; }
+.ebody { padding: 0 14px 14px; font-size: .9rem; }
+.ebody .fuel { color: var(--muted); font-size: .8rem; margin: -4px 0 8px; }
+.lbl { font-size: .7rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 12px 0 3px; font-weight: 650; }
+.latest { background: var(--latest-bg); border-radius: 10px; padding: 9px 12px; }
+.pending { border: 1px dashed var(--pend-line); border-radius: 10px; padding: 9px 12px; }
+.verify { background: var(--warn-bg); color: var(--warn-ink); border-radius: 10px; padding: 8px 12px; font-size: .84rem; }
+.timeline { list-style: none; margin: 0; padding: 0 0 0 14px; border-left: 2px solid var(--line); }
+.timeline li { position: relative; margin: 0 0 8px; padding-left: 8px; }
+.timeline li::before { content: ""; position: absolute; left: -20px; top: .5em; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); }
+.src { margin-top: 12px; }
+.src summary { cursor: pointer; font-size: .82rem; color: var(--muted); }
+.src ul { margin: 6px 0 0; padding-left: 18px; font-size: .78rem; word-break: break-all; }
+.back { font-size: .85rem; margin-bottom: 8px; background: none; border: 0; color: var(--accent); cursor: pointer; padding: 0; font: inherit; }
+.regions h3 { font-size: .74rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 16px 0 6px; }
+.foot { margin-top: 22px; padding-top: 12px; border-top: 1px solid var(--line); font-size: .76rem; color: var(--muted); }
+.err { padding: 30px; }
+@media (max-width: 900px) {
+  .app { height: auto; min-height: 100vh; }
+  main { grid-template-columns: 1fr; grid-template-rows: 58vh auto; }
+  .mapwrap { height: 58vh; min-height: 320px; }
+  aside { border-left: 0; border-top: 1px solid var(--line); overflow: visible; }
+  header { padding: 10px 14px; }
+  .search input { width: 100%; }
+  .search { flex: 1 1 160px; }
+  .legend { font-size: .74rem; padding: 8px 10px; }
+}
+@media (prefers-reduced-motion: reduce) { path.country, .tip { transition: none; } }
+</style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <h1>World Biofuel Policies <small id="asof"></small></h1>
+    <div class="controls">
+      <div class="seg" role="radiogroup" aria-label="Map layer" id="layers">
+        <button role="radio" aria-checked="true" data-layer="policy">Policy coverage</button>
+        <button role="radio" aria-checked="false" data-layer="ethanol">Ethanol blend</button>
+        <button role="radio" aria-checked="false" data-layer="biodiesel">Biodiesel blend</button>
+      </div>
+      <div class="search">
+        <input id="q" list="names" type="search" placeholder="Find a country…" aria-label="Find a country" autocomplete="off">
+        <datalist id="names"></datalist>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="mapwrap" id="mapwrap">
+      <svg id="map" role="img" aria-label="World map of countries with biofuel policies. Use the country list in the side panel for keyboard access."></svg>
+      <div class="zoom">
+        <button class="iconbtn" id="zin" aria-label="Zoom in">+</button>
+        <button class="iconbtn" id="zout" aria-label="Zoom out">−</button>
+        <button class="iconbtn" id="zreset" aria-label="Reset view" title="Reset view">⟲</button>
+      </div>
+      <div class="legend" id="legend"></div>
+      <div class="tip" id="tip" role="tooltip"></div>
+    </div>
+    <aside id="panel" aria-live="polite"></aside>
+  </main>
+</div>
+<script src="lib/d3.min.js"></script>
+<script src="lib/topojson-client.min.js"></script>
+<script>
+(function () {
+  "use strict";
+  var W = 960, H = 520;
+  var ETH_BINS = [5, 10, 15, 25], BIO_BINS = [5, 10, 15, 30];
+  var ETH_LABELS = ["Under 5%", "5–9%", "10–14%", "15–24%", "25% or more"];
+  var BIO_LABELS = ["Under 5%", "5–9%", "10–14%", "15–29%", "30% or more"];
+  var state = { layer: "policy", selected: null };
+  var D = null, svg, g, zoom, paths, proj, nameToPath = {};
+
+  function h(tag, attrs) {
+    var el = document.createElement(tag), i, k, c;
+    if (attrs) for (k in attrs) {
+      if (k === "class") el.className = attrs[k];
+      else if (k === "text") el.textContent = attrs[k];
+      else if (k.slice(0, 2) === "on") el.addEventListener(k.slice(2), attrs[k]);
+      else el.setAttribute(k, attrs[k]);
+    }
+    function add(c) {
+      if (c == null || c === false) return;
+      if (Array.isArray(c)) { c.forEach(add); return; }
+      el.appendChild(typeof c === "string" ? document.createTextNode(c) : c);
+    }
+    for (i = 2; i < arguments.length; i++) add(arguments[i]);
+    return el;
+  }
+  function safeUrl(u) { return /^https?:\/\//i.test(u) ? u : null; }
+  function host(u) { try { return new URL(u).hostname.replace(/^www\./, ""); } catch (e) { return u; } }
+  function bin(v, bins) { var n = 0; bins.forEach(function (t) { if (v >= t) n++; }); return n; }
+  function fmt(v) { return (Math.round(v * 10) / 10) + "%"; }
+
+  Promise.all([
+    fetch("data/world-110m.json").then(function (r) { return r.json(); }),
+    fetch("data/data.json").then(function (r) { return r.json(); })
+  ]).then(init).catch(function (e) {
+    document.getElementById("panel").appendChild(h("div", { class: "err" },
+      h("p", { text: "The map data could not be loaded." }),
+      h("p", { class: "note", text: "If you opened index.html directly from your computer, run a local web server instead (for example: python -m http.server) or view the published site." })));
+    console.error(e);
+  });
+
+  function init(res) {
+    var world = res[0]; D = res[1];
+    document.getElementById("asof").textContent = "Status as of " + D.as_of + " · research dataset, not legal advice";
+    var features = topojson.feature(world, world.objects.countries).features
+      .filter(function (f) { return f.properties.name !== "Antarctica"; });
+    proj = d3.geoNaturalEarth1().fitExtent([[8, 8], [W - 8, H - 8]], { type: "FeatureCollection", features: features });
+    var path = d3.geoPath(proj);
+
+    svg = d3.select("#map").attr("viewBox", "0 0 " + W + " " + H).attr("preserveAspectRatio", "xMidYMid meet");
+    g = svg.append("g");
+    paths = g.selectAll("path").data(features).enter().append("path")
+      .attr("d", path)
+      .each(function (d) {
+        var nm = d.properties.name;
+        nameToPath[nm] = this;
+        if (D.countries[nm]) {
+          this.setAttribute("tabindex", "0");
+          this.setAttribute("role", "button");
+          this.setAttribute("aria-label", nm + ": biofuel policy details");
+        }
+      })
+      .on("mousemove", function (ev, d) { tip(ev, d); })
+      .on("mouseleave", function () { document.getElementById("tip").style.opacity = 0; })
+      .on("click", function (ev, d) { if (D.countries[d.properties.name]) select(d.properties.name, true); })
+      .on("keydown", function (ev, d) {
+        if ((ev.key === "Enter" || ev.key === " ") && D.countries[d.properties.name]) { ev.preventDefault(); select(d.properties.name, true); }
+      });
+
+    zoom = d3.zoom().scaleExtent([1, 12]).translateExtent([[0, 0], [W, H]])
+      .on("zoom", function (ev) { g.attr("transform", ev.transform); });
+    svg.call(zoom).on("dblclick.zoom", null);
+    document.getElementById("zin").onclick = function () { svg.transition().duration(250).call(zoom.scaleBy, 1.6); };
+    document.getElementById("zout").onclick = function () { svg.transition().duration(250).call(zoom.scaleBy, 1 / 1.6); };
+    document.getElementById("zreset").onclick = function () { svg.transition().duration(400).call(zoom.transform, d3.zoomIdentity); };
+
+    // layer buttons
+    var btns = document.querySelectorAll("#layers button");
+    btns.forEach(function (b) {
+      b.addEventListener("click", function () {
+        state.layer = b.getAttribute("data-layer");
+        btns.forEach(function (x) { x.setAttribute("aria-checked", x === b ? "true" : "false"); });
+        paint(); legend();
+      });
+    });
+
+    // search
+    var dl = document.getElementById("names");
+    Object.keys(D.countries).sort().forEach(function (n) { dl.appendChild(h("option", { value: n })); });
+    var q = document.getElementById("q");
+    function go() {
+      var v = q.value.trim().toLowerCase(); if (!v) return;
+      var names = Object.keys(D.countries);
+      var m = names.filter(function (n) { return n.toLowerCase() === v; })[0] ||
+              names.filter(function (n) { return n.toLowerCase().indexOf(v) === 0; })[0] ||
+              names.filter(function (n) { return n.toLowerCase().indexOf(v) > -1; })[0];
+      if (m) { select(m, true); q.blur(); }
+    }
+    q.addEventListener("change", go);
+    q.addEventListener("keydown", function (e) { if (e.key === "Enter") go(); });
+
+    paint(); legend();
+    var hash = decodeURIComponent((location.hash || "").slice(1));
+    if (hash && D.countries[hash]) select(hash, true, true); else intro();
+    window.addEventListener("hashchange", function () {
+      var hh = decodeURIComponent((location.hash || "").slice(1));
+      if (hh && D.countries[hh]) select(hh, true, true); else if (!hh) { clearSel(); intro(); }
+    });
+  }
+
+  function paint() {
+    paths.attr("class", function (d) {
+      var c = D.countries[d.properties.name], cls = "country";
+      if (!c) return cls;
+      cls += " covered";
+      if (d.properties.name === state.selected) cls += " selected";
+      if (state.layer === "policy") cls += c.status === "planned" ? " pol-planned" : " pol-enacted";
+      else {
+        var v = state.layer === "ethanol" ? c.ethanol : c.biodiesel;
+        if (v == null) cls += " bin-none";
+        else cls += " bin-" + bin(v, state.layer === "ethanol" ? ETH_BINS : BIO_BINS);
+      }
+      return cls;
+    });
+  }
+
+  function legend() {
+    var el = document.getElementById("legend"); el.textContent = "";
+    var items, title, foot;
+    if (state.layer === "policy") {
+      title = "Biofuel policy";
+      items = [["var(--c-enacted)", "Policy in force (mandate, standard or incentive)"], ["var(--c-planned)", "Planned or draft only"], ["var(--c-none)", "Not covered in this dataset"]];
+      foot = "Grey means “not researched here”, not “no policy”.";
+    } else {
+      var eth = state.layer === "ethanol", labels = eth ? ETH_LABELS : BIO_LABELS;
+      title = eth ? "Ethanol blend in gasoline" : "Biodiesel blend in diesel";
+      items = labels.map(function (l, i) { return ["var(--bin" + i + ")", l]; });
+      items.push(["var(--c-nofixed)", "Has a policy, but no fixed national blend"]);
+      items.push(["var(--c-none)", "Not covered in this dataset"]);
+      foot = "Headline mandate or target level; actual blending can be lower.";
+    }
+    if (state.legendOpen == null) state.legendOpen = !window.matchMedia("(max-width: 900px)").matches;
+    var open = state.legendOpen;
+    el.appendChild(h("button", { class: "lg-toggle", "aria-expanded": String(open), onclick: function () { state.legendOpen = !state.legendOpen; legend(); } },
+      h("span", { text: title }), h("span", { text: open ? "–" : "+" })));
+    if (open) {
+      el.appendChild(h("ul", null, items.map(function (it) {
+        return h("li", null, h("span", { class: "sw", style: "background:" + it[0] }), it[1]);
+      })));
+      el.appendChild(h("p", { text: foot }));
+    }
+  }
+
+  function tip(ev, d) {
+    var nm = d.properties.name, c = D.countries[nm], t = document.getElementById("tip"), wrap = document.getElementById("mapwrap");
+    var r = wrap.getBoundingClientRect(), txt = nm;
+    if (c) {
+      var bits = [];
+      if (c.ethanol != null) bits.push("ethanol " + fmt(c.ethanol));
+      if (c.biodiesel != null) bits.push("biodiesel " + fmt(c.biodiesel));
+      txt += c.status === "planned" ? " · planned" : "";
+      if (bits.length) txt += " · " + bits.join(", ");
+      txt += " — click for details";
+    } else txt += " — not covered in this dataset";
+    t.textContent = txt;
+    t.style.left = Math.min(ev.clientX - r.left + 14, r.width - 270) + "px";
+    t.style.top = (ev.clientY - r.top + 14) + "px";
+    t.style.opacity = 1;
+  }
+
+  function clearSel() { state.selected = null; paint(); }
+
+  function select(name, doZoom, fromHash) {
+    state.selected = name; paint();
+    var p = nameToPath[name];
+    if (p) p.parentNode.appendChild(p); // raise outline above neighbours
+    panelCountry(name);
+    if (!fromHash) { try { history.replaceState(null, "", "#" + encodeURIComponent(name)); } catch (e) {} }
+    if (doZoom && p) zoomTo(p.__data__);
+    var pn = document.getElementById("panel");
+    pn.scrollTop = 0;
+    if (window.matchMedia("(max-width: 900px)").matches && !fromHash) pn.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  function zoomTo(feat) {
+    // use the largest polygon so far-flung territories do not distort the view
+    var geom = feat.geometry, best = feat, bestA = -1;
+    if (geom.type === "MultiPolygon") {
+      geom.coordinates.forEach(function (c) {
+        var f = { type: "Polygon", coordinates: c }, a = d3.geoArea(f);
+        if (a > bestA) { bestA = a; best = f; }
+      });
+    } else best = geom;
+    var b = d3.geoPath(proj).bounds(best);
+    var dx = b[1][0] - b[0][0], dy = b[1][1] - b[0][1], x = (b[0][0] + b[1][0]) / 2, y = (b[0][1] + b[1][1]) / 2;
+    var k = Math.max(1.6, Math.min(8, 0.55 / Math.max(dx / W, dy / H)));
+    var t = d3.zoomIdentity.translate(W / 2 - k * x, H / 2 - k * y).scale(k);
+    svg.transition().duration(600).call(zoom.transform, t);
+  }
+
+  function intro() {
+    var p = document.getElementById("panel"); p.textContent = "";
+    var names = Object.keys(D.countries);
+    var nEn = names.filter(function (n) { return D.countries[n].status !== "planned"; }).length;
+    p.appendChild(h("h2", { text: "Biofuel policies around the world" }));
+    p.appendChild(h("p", { class: "note", text: "Click a shaded country (or search above) to see its biofuel policy, when it began, how it changed, and the latest rule in force. Switch the map layer to compare ethanol or biodiesel blend levels." }));
+    p.appendChild(h("div", { class: "stats" },
+      h("div", { class: "stat" }, h("b", { text: String(names.length) }), h("span", { text: "countries covered" })),
+      h("div", { class: "stat" }, h("b", { text: String(nEn) }), h("span", { text: "with a policy in force" }))));
+    var regions = {};
+    names.forEach(function (n) {
+      var e = D.entries[D.countries[n].entries[0]], r = e ? e.region : "Other";
+      (regions[r] = regions[r] || []).push(n);
+    });
+    var wrap = h("div", { class: "regions" });
+    ["Americas", "Europe", "Asia-Pacific", "Africa"].forEach(function (r) {
+      if (!regions[r]) return;
+      wrap.appendChild(h("h3", { text: r }));
+      var row = h("div", { class: "chips" });
+      regions[r].sort().forEach(function (n) { row.appendChild(h("button", { class: "chip", text: n, onclick: function () { select(n, true); } })); });
+      wrap.appendChild(row);
+    });
+    p.appendChild(wrap);
+    p.appendChild(foot());
+  }
+
+  function foot() {
+    return h("div", { class: "foot" },
+      h("p", { text: "Compiled from government and agency pages, USDA/IEA reports, law-firm notes and trade press. Where sources conflict, the entry says “Verify”. † marks start dates taken from general background knowledge and not confirmed. Policies change often: check the linked sources before relying on any figure." }),
+      h("p", null, "Data: ", h("a", { href: "data/data.json", text: "data/data.json" })));
+  }
+
+  function panelCountry(name) {
+    var c = D.countries[name], p = document.getElementById("panel"); p.textContent = "";
+    p.appendChild(h("button", { class: "back", text: "← All countries", onclick: function () { clearSel(); try { history.replaceState(null, "", location.pathname); } catch (e) {} intro(); svg.transition().duration(400).call(zoom.transform, d3.zoomIdentity); } }));
+    p.appendChild(h("h2", { text: name }));
+    p.appendChild(h("div", { class: "chips" },
+      h("span", { class: "chip " + (c.status === "planned" ? "plan" : "ok"), text: c.status === "planned" ? "Planned / draft" : "Policy in force" }),
+      c.entries.length > 1 ? h("span", { class: "chip", text: c.entries.length + " programs" }) : null));
+    if (c.ethanol != null || c.biodiesel != null) {
+      p.appendChild(h("div", { class: "stats" },
+        h("div", { class: "stat" }, h("b", { text: c.ethanol != null ? fmt(c.ethanol) : "–" }), h("span", { text: "ethanol in gasoline" })),
+        h("div", { class: "stat" }, h("b", { text: c.biodiesel != null ? fmt(c.biodiesel) : "–" }), h("span", { text: "biodiesel in diesel" }))));
+    }
+    if (c.blendNote) p.appendChild(h("p", { class: "note", text: c.blendNote }));
+    if (c.note) p.appendChild(h("p", { class: "note", text: c.note }));
+    c.entries.forEach(function (id, i) { p.appendChild(entryCard(D.entries[id], i === 0)); });
+    p.appendChild(foot());
+  }
+
+  function section(label, node) { return [h("div", { class: "lbl", text: label }), node]; }
+
+  function entryCard(e, open) {
+    var body = h("div", { class: "ebody" });
+    body.appendChild(h("div", { class: "fuel", text: e.fuels }));
+    section("What it is", h("div", { text: e.policy })).forEach(function (n) { body.appendChild(n); });
+    section("First implemented", h("div", { text: e.implemented })).forEach(function (n) { body.appendChild(n); });
+    section("Changes over time", h("ul", { class: "timeline" }, e.changes.map(function (t) { return h("li", { text: t }); }))).forEach(function (n) { body.appendChild(n); });
+    section("Latest enacted policy", h("div", { class: "latest", text: e.latest })).forEach(function (n) { body.appendChild(n); });
+    if (e.pending) section("Pending or proposed (not yet law)", h("div", { class: "pending", text: e.pending })).forEach(function (n) { body.appendChild(n); });
+    if (e.flags) section("Verify", h("div", { class: "verify", text: e.flags })).forEach(function (n) { body.appendChild(n); });
+    var links = e.sources.map(safeUrl).filter(Boolean);
+    if (links.length) {
+      body.appendChild(h("details", { class: "src" }, h("summary", { text: "Sources (" + links.length + ")" }),
+        h("ul", null, links.map(function (u) { return h("li", null, h("a", { href: u, target: "_blank", rel: "noopener noreferrer", text: host(u) + " ↗" })); }))));
+    }
+    var d = h("details", { class: "entry" }, h("summary", null, h("span", { text: e.name })), body);
+    if (open) d.setAttribute("open", "");
+    return d;
+  }
+})();
+</script>
+</body>
+</html>

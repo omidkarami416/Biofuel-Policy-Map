@@ -1,0 +1,1507 @@
+{
+ "as_of": "28 October 2026",
+ "entries": {
+  "united-states-renewable-fuel-standard-federal": {
+   "id": "united-states-renewable-fuel-standard-federal",
+   "name": "United States - Renewable Fuel Standard (federal)",
+   "region": "Americas",
+   "fuels": "Ethanol, biodiesel / renewable diesel, cellulosic, advanced biofuels",
+   "policy": "Federal mandate: refiners and importers must blend set annual volumes of renewable fuel into transport fuel, tracked with tradable RINs. EPA sets annual Renewable Volume Obligations (RVOs).",
+   "implemented": "2005 (Energy Policy Act)†; expanded as RFS2 in 2007 (Energy Independence and Security Act)†.",
+   "changes": [
+    "2025 - Total RVO of 22.61 bn gallons (baseline for the later increase). EPA was late setting 2026 volumes (statutory deadline was Nov 2024).",
+    "Jun 2025 - EPA proposed 2026-27 volumes ('Set 2'), including a proposal to halve RINs for imported biofuel and imported feedstocks.",
+    "Sep 2025 - EPA reallocation framework for small refinery exemptions (SREs); 50% or 100% reallocation considered.",
+    "27 Mar 2026 - Final Set 2 rule announced; published in the Federal Register 1 Apr 2026."
+   ],
+   "latest": "Set 2 final rule (effective 15 Jun 2026): total renewable fuel 25.82 bn RINs (2026) and 25.98 bn RINs (2027); advanced biofuel 10.82 / 10.98 bn RINs; implied conventional (corn ethanol) volume held at 15 bn gal in both years; biomass-based diesel now expressed in RINs instead of gallons; 70% reallocation of waived 2023-25 SREs; partial waiver of the 2025 cellulosic volume (170 mn RIN shortfall); eRIN pathways eliminated. Percentage standards 2026: total 15.50%, advanced 6.42%, biomass-based diesel 5.24%; 2027: 15.78%, 6.61%, 5.37%.",
+   "pending": "Half-RIN treatment for imported biofuel/feedstock was dropped from the final rule, but EPA says it intends to pursue it in the next rule ('Set 3', 2028 onward).",
+   "flags": "",
+   "sources": [
+    "https://www.epa.gov/renewable-fuel-standard/final-renewable-fuel-standards-2026-and-2027",
+    "https://www.hklaw.com/en/insights/publications/2026/04/epa-boosts-biofuel-mandates-in-final-renewable-fuel-standard-rule",
+    "https://farmdocdaily.illinois.edu/?p=41876",
+    "https://soygrowers.com/news-releases/beyond-the-headline-rvo/",
+    "https://www.cruxclimate.com/blog/clean-fuels-final-renewable-fuel-standard-volumes",
+    "https://advancedbiofuelsusa.info/dissecting-rfs-set-2-2026-and-2027-renewable-fuel-standard-renewable-volume-obligations-rvos"
+   ],
+   "snapshot": false
+  },
+  "united-states-tax-credits-45z-and-e15-rules-federal": {
+   "id": "united-states-tax-credits-45z-and-e15-rules-federal",
+   "name": "United States - Tax credits (45Z) and E15 rules (federal)",
+   "region": "Americas",
+   "fuels": "Ethanol, biodiesel / renewable diesel, SAF",
+   "policy": "45Z Clean Fuel Production Credit (technology-neutral, based on carbon intensity) plus Clean Air Act treatment of E15 (15% ethanol) summer sales.",
+   "implemented": "45Z: created by the Inflation Reduction Act (2022), operative from 2025†. E15: EPA emergency summer waivers issued every year since 2022.",
+   "changes": [
+    "4 Jul 2025 - One Big Beautiful Bill Act extended 45Z by two years through end-2029, limited eligible feedstocks to the US, Canada and Mexico, and kept full transferability.",
+    "2025 - EPA approved year-round E15 for eight Midwest states (IL, IA, MN, MO, NE, OH, SD, WI) at their governors' request; SD and OH were pending until 2026.",
+    "Feb 2026 - Treasury released proposed 45Z regulations; public hearing scheduled for 28 May 2026.",
+    "13 May 2026 - House passed the Nationwide Consumer and Fuel Retailer Choice Act (year-round E15 nationwide)."
+   ],
+   "latest": "45Z is in force through 2029 under the 2025 tax law, operating under proposed (not final) Treasury rules; USDA feedstock guidance described as imminent (Jun 2026). Year-round E15 is available in the approved Midwest states; nationwide year-round E15 is not yet law.",
+   "pending": "Senate vote on year-round E15 (as of Jun 2026); final 45Z regulations and USDA feedstock guidance; Biodiesel Tax Credit Extension Act of 2026 (introduced Apr 2026).",
+   "flags": "Status after Jun 2026 not confirmed in sources found.",
+   "sources": [
+    "https://www.czapp.com/analyst-insights/us-ethanol-industry-celebrates-new-tax-bill-extension/",
+    "https://farmpolicynews.illinois.edu/2026/01/trump-says-congress-close-to-deal-for-year-round-e15/",
+    "https://advancedbiofuelsusa.info/senate-hearing-addresses-e15-legislation-45z-guidance",
+    "https://legis1.com/news/e15-biofuel-bills-clean-fuels-alliance-america",
+    "https://advancedbiofuelsusa.info/grassroots-advocacy-needed-in-dc-now-more-than-ever",
+    "https://biofuelsdigest.com/category/policy/page/3/"
+   ],
+   "snapshot": false
+  },
+  "united-states-california-low-carbon-fuel-standard": {
+   "id": "united-states-california-low-carbon-fuel-standard",
+   "name": "United States - California Low Carbon Fuel Standard",
+   "region": "Americas",
+   "fuels": "Ethanol, biodiesel, renewable diesel, biogas, other low-carbon fuels",
+   "policy": "Market-based standard requiring a declining carbon intensity (CI) of California transport fuels; deficits and credits are traded.",
+   "implemented": "2011 (program in operation since 2011); original goal: 10% CI cut from a 2010 baseline by 2020.",
+   "changes": [
+    "8 Nov 2024 - CARB board approved amendments.",
+    "Feb 2025 - Office of Administrative Law (OAL) disapproved the first submission; CARB resubmitted 16 May 2025.",
+    "27 Jun 2025 - OAL approved; amended rule effective 1 Jul 2025."
+   ],
+   "latest": "Amended LCFS (effective 1 Jul 2025): CI reduction of 30% by 2030 and 90% by 2045 versus 2010; one-time 9% step-down in 2025 (22.75% reduction); new auto-adjustment mechanism; limits on crop-based biofuel participation.",
+   "pending": "Legal challenges and fuel-price debate continuing (mid-2025 law-firm commentary).",
+   "flags": "Two different CI standards applied within calendar year 2025 (before and after 1 Jul).",
+   "sources": [
+    "https://www.globalelr.com/2025/08/california-low-carbon-fuel-standard-amendments-take-effect/",
+    "https://www.ieta.org/uploads/wp-content/2025/09/IETA_Business_Brief-California-Low-Carbon-Fuel-Standard-19September_final.pdf",
+    "https://www.argusmedia.com/ja/news-and-insights/latest-market-news/2704815-california-office-approves-lcfs-changes",
+    "https://biodieselmagazine.com/articles/carb-california-lcfs-amendments-take-effect-on-july-1"
+   ],
+   "snapshot": false
+  },
+  "canada": {
+   "id": "canada",
+   "name": "Canada",
+   "region": "Americas",
+   "fuels": "Ethanol, biodiesel, renewable diesel, SAF",
+   "policy": "Federal Clean Fuel Regulations (CFR): suppliers must cut the life-cycle carbon intensity of gasoline and diesel, with a credit market; the CFR also carries minimum renewable content of 5% in gasoline and 2% in diesel. Provincial mandates and a federal Biofuels Production Incentive add to this.",
+   "implemented": "CFR took effect 1 Jul 2023 (SOR/2022-140). Earlier federal Renewable Fuel Regulations set the 5% / 2% minimums†. Clean Fuels Fund of C$1.5 bn announced in Budget 2021.",
+   "changes": [
+    "1 Apr 2025 - British Columbia: diesel renewable content raised from 4% to 8% and must be Canadian-produced.",
+    "7 Aug 2025 - Ontario Reg. 663/20 amended: at least 75% of required diesel renewable content (2026 onward) and 64% of gasoline renewable content (2026-27) must be produced in Canada.",
+    "5 Sep 2025 - Federal government announced a Biofuels Production Incentive (over C$370 mn) and intent to amend the CFR.",
+    "3 Dec 2025 - Discussion paper on targeted CFR amendments (updated 19 Dec 2025).",
+    "1 Jan 2026 - BC gasoline 5% renewable content must be Canadian-made; Biofuels Production Incentive launched 5 Jan 2026."
+   ],
+   "latest": "CFR in force. Biofuels Production Incentive (over C$372 mn; per-litre support for biodiesel and renewable diesel, Jan 2026 - Dec 2027) in effect. Domestic-content rules in BC and Ontario. 2025 data: ethanol about 10% of the gasoline pool; biomass-based diesel over 7% nationally.",
+   "pending": "Draft targeted CFR amendments (not found finalized); formal CFR review to begin in 2027.",
+   "flags": "",
+   "sources": [
+    "https://www.canada.ca/en/environment-climate-change/corporate/transparency/consultations/share-view-ideas-targeted-amendments-clean-fuel-regulations/discussion-paper.html",
+    "https://oilandenergyonline.com/articles/all/our-northern-neighbors-canadas-clean-energy-policies/",
+    "https://www.farms.com/news/federal-biofuel-production-incentive-now-in-effect-236869.aspx",
+    "https://www.ontario.ca/laws/regulation/R25163",
+    "https://bcbioenergy.ca/?p=11198",
+    "https://advancedbiofuelsusa.info/growing-clean-fuel-demand-highlights-opportunity-to-strengthen-canada-s-domestic-fuel-supply-biofuels-in-canada-2026-report",
+    "https://www.opis.com/resources/energy-market-news-from-opis/canadas-clean-fuel-regulations-to-be-reviewed-in-2027-official/",
+    "https://sencanada.ca/en/sencaplus/opinion/canada-s-clean-fuel-regulations-present-opportunities-for-home-grown-biofuel-senator-lewis/"
+   ],
+   "snapshot": false
+  },
+  "brazil": {
+   "id": "brazil",
+   "name": "Brazil",
+   "region": "Americas",
+   "fuels": "Ethanol, biodiesel, SAF, biomethane",
+   "policy": "Layered system: mandatory ethanol blend in gasoline; mandatory biodiesel blend in diesel (PNPB); RenovaBio (Law 13,576/2017, decarbonization credits); Fuel of the Future Law (Law 14,993/2024) setting blend ceilings plus SAF and biomethane programs. Blend changes require approval by the CNPE energy council.",
+   "implemented": "Ethanol blending since the 1970s (Proalcool)†; mandatory biodiesel blending since 2005; RenovaBio 2017; Fuel of the Future Law signed 8-9 Oct 2024.",
+   "changes": [
+    "2015 - Gasoline ethanol blend set at E27.",
+    "Apr 2023 - Biodiesel B12; Mar 2024 - B14.",
+    "Oct 2024 - Fuel of the Future Law: ethanol up to E35 and biodiesel up by 1 point each March to B20 by 2030 (subject to CNPE approval); SAF use from 2027.",
+    "1 Aug 2025 - Ethanol E27 to E30 and biodiesel B14 to B15 (CNPE announced 25 Jun 2025).",
+    "Mar 2026 - Scheduled B16 step; as of Jul 2026 reporting B15 was still in force (feasibility tests unfinished).",
+    "14 Jul 2026 - CNPE approved new biodiesel rules (ban on imported biodiesel for meeting the mandate; room for voluntary higher blends) and a temporary increase of the gasoline ethanol blend to 32%."
+   ],
+   "latest": "E30 (since Aug 2025) with a CNPE-approved temporary increase to E32 (14 Jul 2026; trade press of 20 Oct 2026 reports Brazil hiking ethanol blending to 32%). B15 biodiesel mandate with a ban on imported biodiesel for compliance. SAF mandate scheduled from 2027.",
+   "pending": "Studies on E35 and other higher blends; statutory path to B20 by 2030; B16 step.",
+   "flags": "Effective date of E32 not confirmed in sources found. Some republished articles carry 2026 dates for 2025 events.",
+   "sources": [
+    "https://dieselnet.com/news/2026/07br-biofuels.php",
+    "https://biodieselmagazine.com/articles/brazil-to-boost-biofuel-mandates-to-e30-b15",
+    "https://www.spglobal.com/energy/en/news-research/latest-news/refined-products/020326-doubts-loom-over-timing-of-brazils-b16-biodiesel-mandate-as-deadline-nears",
+    "https://iea-amf.org/content/publications/country_reports/brazil",
+    "https://newenergyevents.com/brazil-enacts-fuel-of-the-future-law-to-boost-sustainable-fuel-usage-and-reduce-emissions/",
+    "https://www.industrialinfo.com/news/article/malaysia-commits-to-higher-biodiesel-blending--318886"
+   ],
+   "snapshot": false
+  },
+  "argentina": {
+   "id": "argentina",
+   "name": "Argentina",
+   "region": "Americas",
+   "fuels": "Bioethanol (sugarcane, corn), biodiesel (soy)",
+   "policy": "Law 27,640 (Biofuels Regulatory Framework): mandatory blends of bioethanol in gasoline and biodiesel in diesel, using domestically produced feedstock. No direct financial support.",
+   "implemented": "Earlier biofuels law 26,093 (2006)†; Law 27,640 passed Jul 2021 and valid to 2030.",
+   "changes": [
+    "2021 - Law 27,640: ethanol 12% (6% sugarcane, 6% corn); biodiesel cut by five points to 5%.",
+    "Jun 2022 - Biodiesel blend raised from 5% to 7.5%.",
+    "Mar 2026 - Regulation lets distributors blend up to 15% ethanol voluntarily above the 12% mandate."
+   ],
+   "latest": "12% ethanol / 7.5% biodiesel mandate in force through 2030 (Law 27,640); voluntary ethanol blending up to 15% allowed since Mar 2026.",
+   "pending": "Reform bill: ethanol 12% to 15% and biodiesel 7.5% to 10%, taking full effect 12 months after enactment; a single producer would be capped at 20% of ethanol volume. Some reports say the Senate approved it, but Aug-Sep 2026 coverage shows lawmakers weighing splitting biodiesel from the bill and industry still urging passage.",
+   "flags": "Final enactment status unclear in sources found - verify.",
+   "sources": [
+    "https://www.industrialinfo.com/iirenergy/industry-news/article/argentinas-senate-oks-bill-to-boost-biofuel-in-gasoline-diesel--362935",
+    "https://www.world-grain.com/articles/23140-record-ethanol-production-forecast-for-argentina",
+    "https://www.iea.org/policies/20495",
+    "https://biofuelsdigest.com/?p=1006939",
+    "https://www.qcintel.com/biofuels/article/argentina-lawmakers-consider-bypassing-biodiesel-reform-to-raise-ethanol-blend-reports-71507.html",
+    "https://www.fastmarkets.com/insights/argentina-biofuel-bill-with-5-diesel-blend-mandate-cut-made-law/",
+    "https://bioplasticsnews.com/wp-content/uploads/2025/09/Biofuels-Annual_Buenos-Aires_Argentina_AR2025-0013.pdf"
+   ],
+   "snapshot": false
+  },
+  "paraguay": {
+   "id": "paraguay",
+   "name": "Paraguay",
+   "region": "Americas",
+   "fuels": "Ethanol (sugarcane), biodiesel",
+   "policy": "Mandatory ethanol blend in gasoline and a biodiesel blend regime administered by the Ministry of Industry and Commerce (MIC).",
+   "implemented": "Ethanol mandate historically E24-E25 (older sources); E30 minimum set Mar 2025.",
+   "changes": [
+    "Mar 2025 - Became the first country to mandate a minimum 30% ethanol blend (E30).",
+    "5-7 May 2026 - One report says the president signed a law raising the minimum sugarcane ethanol blend to 50%; another describes a requirement that 50% of the ethanol blended be domestic feedstock.",
+    "23 Jun 2026 - MIC set the biodiesel blend band at 8-10% within a new legal range of 5-20%.",
+    "About 20 Jul 2026 - 8% biodiesel mandate entered into force; on 24 Jul 2026 MIC cut it back to 7% for 24 Jul - 31 Dec 2026 (compliance checks start after 60 days)."
+   ],
+   "latest": "Ethanol: E30 minimum (Mar 2025) plus the May 2026 law (see flag). Biodiesel: 7% through 31 Dec 2026.",
+   "pending": "Operating band within the 5-20% legal range for 2027 onward.",
+   "flags": "Conflicting reports on what the May 2026 ethanol law requires (50% blend vs 50% domestic content) - verify against the official gazette.",
+   "sources": [
+    "https://api.argusmedia.com/articles/2856849",
+    "https://api.argusmedia.com/articles/2843047",
+    "https://www.industrialinfo.com/news/article/paraguay-and-brazil-put-plans-in-motion-to-increase-ethanol-blends--340333",
+    "https://www.qcintel.com/biofuels/article/paraguay-president-signs-off-on-50-ethanol-blend-in-gasoline-64166.html",
+    "https://biofuelsdigest.com/category/policy/page/3/"
+   ],
+   "snapshot": false
+  },
+  "colombia": {
+   "id": "colombia",
+   "name": "Colombia",
+   "region": "Americas",
+   "fuels": "Ethanol, biodiesel (palm oil), SAF",
+   "policy": "National ethanol (E10) and biodiesel (B10) blend mandates; domestic palm oil supplies biodiesel.",
+   "implemented": "Ethanol mandate since 2005 (applied unevenly; E8-E10 in most of the country since mid-2017).",
+   "changes": [
+    "May 2021 - Ethanol mandate temporarily cut from E10 to E4 (weather-hit production, high US ethanol prices).",
+    "Aug 2025 - Ecopetrol introduced a marine fuel blend (small additional biodiesel demand).",
+    "2026 - Target of 1% SAF (about 27 mn liters) and CORSIA-aligned procedures."
+   ],
+   "latest": "B10 unchanged in 2026 (USDA); E10 in major cities. Biodiesel production forecast up 4.5% to 765 mn liters in 2026.",
+   "pending": "",
+   "flags": "One aggregator roundup reports B12 to B13 in Jul 2024, which conflicts with USDA's B10; USDA figure used here.",
+   "sources": [
+    "https://bioenergytimes.com/?p=21822",
+    "https://biodieselmagazine.com/articles/colombia-temporarily-reduces-ethanol-blend-mandate-18235",
+    "https://biofuels-news.com/news/overview-of-global-biofuels-markets-forecast/",
+    "https://biofuelsdigest.com/biofuels-mandates-around-the-world-2026/"
+   ],
+   "snapshot": false
+  },
+  "other-latin-america-snapshot": {
+   "id": "other-latin-america-snapshot",
+   "name": "Other Latin America (snapshot)",
+   "region": "Americas",
+   "fuels": "Ethanol",
+   "policy": "National ethanol blend mandates per US Grains Council map: Bolivia E25; Peru E7.8; Costa Rica E10 (2025); Guatemala E10 (2026); Panama E10 (by 2026); Jamaica E10; Uruguay E10. Mexico: blending applies outside Mexico City, Monterrey and Guadalajara (details truncated in source).",
+   "implemented": "Varies by country (not individually verified).",
+   "changes": [
+    "Not researched country by country."
+   ],
+   "latest": "Levels as listed in the Apr 2025 US Grains Council blending map.",
+   "pending": "",
+   "flags": "Single industry source (Apr 2025 snapshot); implementation status and dates vary and were not verified.",
+   "sources": [
+    "https://grains.org/wp-content/uploads/2025/04/USGC-Bioethanol-Blending-Map-4.17-Final.pdf"
+   ],
+   "snapshot": false
+  },
+  "european-union-red-iii": {
+   "id": "european-union-red-iii",
+   "name": "European Union (RED III)",
+   "region": "Europe",
+   "fuels": "Biofuels, biogas, RFNBOs, advanced biofuels",
+   "policy": "Renewable Energy Directive: binding renewable-energy and transport targets that member states turn into national fuel-supplier obligations.",
+   "implemented": "RED I 2009 (10% renewables in transport by 2020)†; RED II 2018†; RED III (Directive (EU) 2023/2413) adopted 18 Oct 2023 and in force 20 Nov 2023.",
+   "changes": [
+    "Nov 2023 - RED III lifted the EU renewables target from 32% to at least 42.5% by 2030 (indicative 45%).",
+    "Transport: member states choose either at least 29% renewables in transport by 2030 or a 14.5% GHG-intensity cut by 2030; combined binding sub-target for advanced biofuels/biogas and RFNBOs of 1% in 2025 and 5.5% in 2030.",
+    "May 2025 - Transposition deadline: only two member states had transposed (at least the transport part) on time.",
+    "Jan 2026 - European Biodiesel Board launched a RED III transposition tracker; several, not all, states done; some final texts not expected until 2027."
+   ],
+   "latest": "RED III in force; national transposition uneven (see Germany, France, Ireland, Spain, Netherlands). USDA's 2026 EU Biofuels Annual (Aug 2026): bioethanol production stagnant in 2026; biomass-based diesel output forecast up 4.2%.",
+   "pending": "Remaining member-state transposition; further national decisions on obligations beyond 2030.",
+   "flags": "",
+   "sources": [
+    "https://www.osborneclarke.com/fr/insights/eus-new-red-iii-legislation-significantly-raises-renewable-energy-targets-2030",
+    "https://ebb-eu.org/news/overview-of-member-states-transposition-of-red-iii/",
+    "https://bioenergytimes.com/?p=16812",
+    "https://dieselnet.com/news/2026/08usda.php",
+    "https://engage.hoganlovells.com/knowledgeservices/insights-and-analysis/renewable-energy-directive-iii-red-iii-targets-for-renewable-fuels-in-transport"
+   ],
+   "snapshot": false
+  },
+  "germany": {
+   "id": "germany",
+   "name": "Germany",
+   "region": "Europe",
+   "fuels": "Biodiesel/HVO, bioethanol, biomethane, RFNBOs, SAF",
+   "policy": "Greenhouse Gas Reduction Quota (THG-Quote): fuel suppliers must cut the GHG intensity of fuels, with tradable certificates; the main route for biofuels.",
+   "implemented": "Active GHG-quota market since 2015.",
+   "changes": [
+    "Before reform - Quota ran only to 2030 (25.1% in 2030).",
+    "Jun and Oct 2025 - Ministerial drafts of the RED III bill.",
+    "10 Dec 2025 - Cabinet approved the Second Law on the GHG Quota: 12% (2026), 25% (2030), 36% (2035), 59% (2040); double counting of advanced biofuels ends from the 2026 compliance year (except fuel placed on the market before 1 Jan 2026); palm oil products incl. POME excluded (from 2027 per one source); advanced-biofuel sub-quota 2.0% (2026), 3.5% (2030), 9% (2040); RFNBO sub-quota 0.1% (2026) rising to 8% (2040); SAF mandate; shipping left out."
+   ],
+   "latest": "A 2026 industry commentary states Germany has implemented RED III for transport and finalized the quota reform, extending the obligation to 2040.",
+   "pending": "",
+   "flags": "That commentary cites a 65% GHG reduction by 2040, versus 59% in the cabinet draft - verify the enacted figure in the Federal Law Gazette.",
+   "sources": [
+    "https://www.spglobal.com/energy/en/news-research/latest-news/agriculture/121025-german-cabinet-sets-59-ghg-quota-by-2040-bans-double-counting-adds-saf-mandate",
+    "https://www.gleisslutz.com/en/know-how/significant-changes-during-legislative-process-german-cabinet-approves-draft-second-act-further-develop-greenhouse-gas-reduction",
+    "https://www.anewclimate.com/post/germanys-transport-sector-reform-new-demand-for-certified-biomethane-across-europe",
+    "https://www.argusmedia.com/es/news-and-insights/latest-market-news/2764078-german-cabinet-passes-eu-red-iii",
+    "https://engine.online/news/german-red-iii-draft-spares-shipping-but-may-strain-biofuel-supply-752a"
+   ],
+   "snapshot": false
+  },
+  "france": {
+   "id": "france",
+   "name": "France",
+   "region": "Europe",
+   "fuels": "Biodiesel, bioethanol, advanced biofuels, hydrogen",
+   "policy": "TIRUERT: an incentive tax on fuel suppliers that falls away when renewable-energy incorporation targets are met (no direct blending mandate).",
+   "implemented": "In place for years under earlier names (TGAP / TIRIB)†; legal basis article 266 quindecies of the customs code, now article 300 bis of the tax code.",
+   "changes": [
+    "Plan - RED III would replace TIRUERT with a new mechanism (IRICC) from 1 Jan 2026.",
+    "Late 2025 / early 2026 - IRICC delayed to 1 Jan 2027; TIRUERT extended through 31 Dec 2026.",
+    "2026 - TIRUERT target percentages kept at 2025 levels.",
+    "30 Jul 2026 - Decree 2026-703 adds eligible hydrogen; new traceability rules apply from 1 Aug 2026."
+   ],
+   "latest": "TIRUERT in force through 31 Dec 2026 at 2025 target levels.",
+   "pending": "IRICC from 1 Jan 2027. Consultation proposals (not law): diesel 9% (2026), 11.4% (2030), 16% (2035); gasoline 9.5%, 10.5%, 14.5%; crop cap 7%; penalty EUR 700/t CO2e. Final adoption of the enabling bill before 31 Dec 2026 described as uncertain.",
+   "flags": "Consultation figures are proposals, not enacted rules.",
+   "sources": [
+    "https://prix-carburant.eu/article/obligation-incorporation-biocarburants-tiruert-tirib-prix-carburant",
+    "https://www.senat.fr/enseance/2025-2026/138/Amdt_I-971.html",
+    "https://www.argusmedia.com/de/news-and-insights/latest-market-news/2688739-france-consults-on-expanded-biofuels-mandate",
+    "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE17277"
+   ],
+   "snapshot": false
+  },
+  "ireland": {
+   "id": "ireland",
+   "name": "Ireland",
+   "region": "Europe",
+   "fuels": "Biofuels, advanced biofuels, RFNBOs",
+   "policy": "Renewable Transport Fuel Obligation (RTFO) transposing the RED III transport rules.",
+   "implemented": "Regulations effective 1 Jan 2026 for the current rates (earlier obligation scheme not researched).",
+   "changes": [
+    "Dec 2025 - Transport Minister signed regulations setting 2026 rates.",
+    "1 Jan 2026 - RTFO rate 32%; advanced biofuel + RFNBO obligation 5%; crop cap 3%. The rate is lower than first anticipated but above 2025. Advanced obligation widened to include RFNBOs."
+   ],
+   "latest": "RTFO 32%, advanced + RFNBO 5%, crop cap 3% (from 1 Jan 2026).",
+   "pending": "Ramp-up of RFNBO sub-target toward 2030.",
+   "flags": "Basis of the 32% figure (energy vs GHG) not stated in the sources - check the regulations.",
+   "sources": [
+    "https://www.darraghobrien.ie/news/minister-obrien-announces-2026-renewable-fuel-rates",
+    "https://www.hgvireland.com/?p=29925",
+    "https://inverenergy.ie/?p=9047"
+   ],
+   "snapshot": false
+  },
+  "spain": {
+   "id": "spain",
+   "name": "Spain",
+   "region": "Europe",
+   "fuels": "Biofuels, biomethane, hydrogen / RFNBOs",
+   "policy": "Proposed Royal Decree transposing the RED III transport rules.",
+   "implemented": "Not yet enacted (draft as of Feb 2026).",
+   "changes": [
+    "Feb 2026 - Draft Royal Decree welcomed by transport and energy sectors: overall transport emissions-reduction target plus a sub-target of at least 18.5% renewable energy in road transport by 2040; 1.7% limit on contribution from Annex IX Part B feedstocks.",
+    "2026 - Industry (e.g. APPA Biocarburantes) objected to letting RFNBOs used outside transport count toward transport targets."
+   ],
+   "latest": "No enacted RED III transport decree found.",
+   "pending": "Final Royal Decree.",
+   "flags": "Draft only.",
+   "sources": [
+    "https://www.gnvmagazine.com/?p=14274",
+    "https://strategicenergy.eu/?p=137502"
+   ],
+   "snapshot": false
+  },
+  "netherlands": {
+   "id": "netherlands",
+   "name": "Netherlands",
+   "region": "Europe",
+   "fuels": "Biofuels, biogas, RFNBOs",
+   "policy": "Energy for Transport regulation: moving from energy-based obligations to a GHG-savings mechanism under RED III.",
+   "implemented": "Reform in draft (as of late 2025).",
+   "changes": [
+    "Sep 2025 - Updated draft amendment published for consultation: confirms end of double counting for Annex IX feedstock; stricter verification and documentation.",
+    "29 Sep 2025 - Ministry meeting on RED III implementation; study on extending obligations beyond 2030 due Nov 2025, decisions expected early 2026."
+   ],
+   "latest": "Not confirmed as enacted in sources found.",
+   "pending": "Final regulation; post-2030 obligations.",
+   "flags": "Latest source is from late 2025.",
+   "sources": [
+    "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2737212-netherlands-holds-meeting-on-red-iii-implementation"
+   ],
+   "snapshot": false
+  },
+  "united-kingdom-renewable-transport-fuel-obligation": {
+   "id": "united-kingdom-renewable-transport-fuel-obligation",
+   "name": "United Kingdom - Renewable Transport Fuel Obligation",
+   "region": "Europe",
+   "fuels": "Biodiesel, bioethanol, biomethane, development fuels",
+   "policy": "RTFO: suppliers must supply a rising share of renewable transport fuel, with a development-fuel sub-target and a crop cap.",
+   "implemented": "2008.",
+   "changes": [
+    "15 Apr 2018 - Targets raised: main obligation at least 12.4% by 2032; first support for renewable aviation fuels.",
+    "2021-22 - 'Targeting net zero' response: main obligation raised (from 9.6%) to 14.6% by 2032; development fuel target 2.8% by 2032; recycled carbon fuels supported.",
+    "15 Aug 2025 - DfT published outcome of the statutory review (128 responses): proposals on future target trajectory, development fuels and broadening to nuclear-derived fuels.",
+    "2026 - DfT reduced the publication frequency of RTFO statistics."
+   ],
+   "latest": "Main obligation rising to 14.6% by 2032, then flat; development fuel obligation 2.8% by 2032. No change to targets found enacted since the review.",
+   "pending": "Further consultation on post-2032 trajectory, including options for higher targets.",
+   "flags": "",
+   "sources": [
+    "https://www.hsfkramer.com/notes/energy/2025-posts/renewable-transport-fuel-obligations-statutory-review-and-policy-update",
+    "https://www.gov.uk/government/calls-for-evidence/rtfo-statutory-review-and-future-of-the-scheme/rtfo-statutory-review-and-future-of-the-scheme",
+    "https://www.gov.uk/government/consultations/amending-the-renewable-transport-fuels-obligation-rtfo-to-increase-carbon-savings-on-land-air-and-at-sea",
+    "https://biodieselmagazine.com/articles/new-uk-biofuel-targets-take-effect-april-15-15227",
+    "https://www.gov.uk/government/publications/change-of-frequency-of-renewable-transport-fuel-obligation-rtfo-and-sustainable-aviation-fuel-saf-mandate-official-statistics-results"
+   ],
+   "snapshot": false
+  },
+  "uk-and-eu-saf-mandates-aviation": {
+   "id": "uk-and-eu-saf-mandates-aviation",
+   "name": "UK and EU - SAF mandates (aviation)",
+   "region": "Europe",
+   "fuels": "Sustainable aviation fuel (SAF)",
+   "policy": "Binding SAF blending obligations on jet fuel suppliers: UK SAF Mandate and EU ReFuelEU Aviation.",
+   "implemented": "Both applied from 2025 (UK mandate in force 1 Jan 2025).",
+   "changes": [
+    "Nov 2024 - UK Parliament approved the SAF Mandate.",
+    "UK schedule: 2% (2025), 10% (2030), 15% (2035), 22% (2040), flat thereafter; HEFA pathway capped at 100% (2025-26), 71% (2030), 35% (2040); power-to-liquid sub-mandate from 2028.",
+    "EU schedule: 2% (2025), 6% (2030), 20% (2035), 34% (2040), 42% (2045), 70% (2050); synthetic-fuel sub-mandate 1.2% by 2030."
+   ],
+   "latest": "Both mandates in force at 2% for 2025, rising on the schedules shown.",
+   "pending": "UK Revenue Certainty Mechanism for SAF producers (legislation announced Jul 2024).",
+   "flags": "",
+   "sources": [
+    "https://www.argusmedia.com/de/news-and-insights/latest-market-news/2625757-uk-parliament-approves-saf-mandate-from-2025",
+    "https://www.easa.europa.eu/en/domains/environment/eaer/sustainable-aviation-fuels/saf-policy-actions",
+    "https://www.routesonline.com/suppliers/10554/capa-centre-for-aviation/news/299662100/eu-parliament-approves-sustainable-aviation",
+    "https://www.businesstravelnewseurope.com/Air-Travel/UK-SAF-mandate-comes-into-force",
+    "https://biodieselmagazine.com/articles/uk-to-implement-saf-mandate-beginning-in-2025"
+   ],
+   "snapshot": false
+  },
+  "india": {
+   "id": "india",
+   "name": "India",
+   "region": "Asia-Pacific",
+   "fuels": "Ethanol, biodiesel, advanced biofuels, SAF",
+   "policy": "Ethanol Blended Petrol (EBP) Programme and the National Policy on Biofuels 2018 (amended 2022): blending targets, broader feedstock (cane juice, grains, damaged grain with committee approval), incentives for advanced biofuels, and a 5% biodiesel target.",
+   "implemented": "EBP launched 2003†; National Policy on Biofuels announced May 2018.",
+   "changes": [
+    "2018 - Policy set 20% ethanol and 5% biodiesel blending by 2030.",
+    "Jun 2022 - Amendment advanced the E20 target to ethanol supply year (ESY) 2025-26.",
+    "2013-14 to 2024-25 - Average blending rose from about 1.5% to 19.2%.",
+    "Nov 2025 - Jun 2026 - Average 20% blend achieved in ESY 2025-26, five years ahead of the original 2030 target.",
+    "1 Apr 2026 - Centre mandated nationwide sale of petrol with up to 20% ethanol and minimum RON 95."
+   ],
+   "latest": "E20 is the nationwide standard from 1 Apr 2026. Government said (Jul 2026) no decision has been taken to raise the base blend beyond E20.",
+   "pending": "E30 preparation (BIS standard IS 19850:2026; transition expected 2028-30); draft SAF policy being finalized; informal SAF targets 1% (2027), 2% (2028), 5% (2030) for international flights (non-binding).",
+   "flags": "",
+   "sources": [
+    "https://www.thequint.com/amp/story/news/breaking-news/union-govt-mandates-20-ethanol-blended-petrol-nationwide-from-1-april-2026-e20-ron-95",
+    "https://www.gktoday.in/indias-biofuel-policy-and-ethanol-blending-programme/",
+    "https://www.policycircle.org/policy/e20-indias-ethanol-blending-policy/",
+    "https://telanganatoday.com/e20-ethanol-rollout-backed-by-years-of-testing-and-consultations-says-centre",
+    "https://anantamias.com/current-affairs/e20-ethanol-blended-petrol-policy-debate/",
+    "https://www.autocarpro.in/news/india-achieves-20-ethanol-blending-in-petrol-five-years-ahead-of-schedule-127684",
+    "https://www.angelone.in/news/indias-ethanol-journey-policy-push-and-measures-beyond-the-20-percent-blending-target"
+   ],
+   "snapshot": false
+  },
+  "indonesia": {
+   "id": "indonesia",
+   "name": "Indonesia",
+   "region": "Asia-Pacific",
+   "fuels": "Palm biodiesel, ethanol, SAF",
+   "policy": "Mandatory palm-based biodiesel blending in diesel, financed by a palm oil export levy; a small ethanol allowance (E3).",
+   "implemented": "Mandatory biodiesel since 2008†; B35 in 2023; B40 from 1 Jan 2025.",
+   "changes": [
+    "1 Jan 2025 - B40 mandate took effect (highest blend in the world).",
+    "Dec 2025 - 2026 biodiesel quota set at 15.646 mn kl (B40 basis).",
+    "Jan 2026 - Government confirmed B40 for 2026 and delayed B50 (financing concerns).",
+    "30 Mar 2026 - President announced B50 for 2026.",
+    "8 Apr 2026 - Ministerial decree on the blending timeline (a Malaysian Palm Oil Board digest headline says all users move to B50 by 2028).",
+    "25 Jun 2026 - Regulation issued to implement B50 from 1 Jul 2026 with a three-month transition for retailers."
+   ],
+   "latest": "B50 mandate from 1 Jul 2026 (B40 in Jan-Jun 2026), with a three-month retailer transition. A new allocation decree for H2 2026 was still to be issued (B40 allocation was 15.65 mn kl; B50 demand projected at 17.6 mn kl).",
+   "pending": "SAF mandate planned from 2027 (1% in 2027, 2.5% by 2030); H2 2026 biodiesel allocation decree.",
+   "flags": "Latest retrieved reports (Jun-Jul 2026) describe preparation and launch; no post-July implementation report was retrieved - check current status.",
+   "sources": [
+    "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/06/18/indonesia-on-track-to-launch-b50-biodiesel-programme-on-july-1-minister-says",
+    "https://www.nst.com.my/amp/business/corporate/2026/06/1472484/indonesia-sets-3-month-transition-period-b50-biodiesel-programme",
+    "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/01/14/indonesia-to-maintain-b40-biodiesel-mandate-b50-plan-put-on-hold",
+    "https://www.spglobal.com/energy/en/news-research/latest-news/agriculture/122325-indonesia-keeps-2026-biodiesel-quota-flat-raising-doubts-over-b50-target",
+    "https://www.enerdata.net/publications/daily-energy-news/indonesia-will-implement-b50-biodiesel-blend-2026.html",
+    "https://prestasisawit.mpob.gov.my/en/palmnews/news/39269",
+    "https://www.biobased-diesel.com/post/indonesia-s-b40-biodiesel-mandate-goes-into-effect-b50-planned-for-2026"
+   ],
+   "snapshot": false
+  },
+  "malaysia": {
+   "id": "malaysia",
+   "name": "Malaysia",
+   "region": "Asia-Pacific",
+   "fuels": "Palm biodiesel, SAF",
+   "policy": "National Biodiesel Programme: palm methyl ester blend mandates for diesel.",
+   "implemented": "2011 (B5).",
+   "changes": [
+    "2014 - B7.",
+    "2019 - B10 for the transport sector.",
+    "Feb 2020 - B20 programme in Labuan, Langkawi and Sarawak (excluding Bintulu); nationwide B20 has stalled.",
+    "14 Apr 2026 - Government announced B10 to B15, starting with B12.",
+    "1 Jun 2026 - B15 rollout across Peninsular Malaysia."
+   ],
+   "latest": "B15 from 1 Jun 2026 (Peninsular Malaysia); B20 in selected regions.",
+   "pending": "B30 mandate for commercial and public transport; B20/B30 depot upgrades under the 13th Malaysia Plan (2026-30); nationwide B30 by 2030 target; SAF 1% by 2027.",
+   "flags": "A 30 Jul 2026 article still describes B15 as planned (appears to be a republished April item).",
+   "sources": [
+    "https://newswav.com/article/nationwide-b15-biodiesel-rollout-advances-energy-transition-amid-global-sup-A2605_6gHeJr",
+    "https://www.spglobal.com/energy/en/news-research/latest-news/agriculture/041426-malaysia-to-tap-idle-biodiesel-capacity-to-cushion-fuel-price-shocks",
+    "https://www.thestar.com.my/business/business-news/2026/04/15/malaysia-to-raise-biodiesel-mandate-from-b10-to-b15",
+    "https://www.thestar.com.my/news/nation/2026/04/16/increasing-biodiesel-output",
+    "https://bioenergytimes.com/?p=19001"
+   ],
+   "snapshot": false
+  },
+  "thailand": {
+   "id": "thailand",
+   "name": "Thailand",
+   "region": "Asia-Pacific",
+   "fuels": "Ethanol (gasohol), biodiesel, SAF",
+   "policy": "Gasohol and biodiesel programs supported by retail price differentials, excise tax and oil-fund subsidies; diesel grades B7 and B20.",
+   "implemented": "Gasohol and biodiesel promotion since the early 2000s†.",
+   "changes": [
+    "1 May 2024 - B10 sales discontinued; only B7 and B20 retailed.",
+    "Oct 2025 - New oil plan: E20 and B7 become main fuels; GSH91/95 and E85 phased out by 2027; SAF 1% from 2026 rising to 8% by 2036.",
+    "Mar 2026 - Oil-crisis measures: diesel base blend B5 to B7 from 14 Mar 2026; E20 kept at least 5 baht per litre cheaper than E10; B20 sales resumed.",
+    "Biofuel subsidies extended two years to 24 Sep 2026."
+   ],
+   "latest": "B7 diesel base (since 14 Mar 2026), E20 promoted over E10, SAF 1% in 2026.",
+   "pending": "Possible later move to B10/B20; subsidy extension beyond 24 Sep 2026 not confirmed.",
+   "flags": "Thai media call the SAF figure a mandate; a policy roundup lists it as a non-binding target.",
+   "sources": [
+    "https://www.nationthailand.com/sustaination/40057053",
+    "https://nationthailand.com/news/general/40063546",
+    "https://www.nationthailand.com/news/general/40063893",
+    "https://www.biofuelsdigest.com/bdigest/?p=178646",
+    "https://www.pulse.bot/energy/news/ethanol-output-cranked-up-to-meet-e20-demand-825be77e-201e-4c28-9bdb-bf5208dae9fa",
+    "https://advancedbiofuelsusa.info/asia-s-ethanol-targets-and-recent-developments",
+    "https://www.thephuketnews.com/bangchak-ptt-or-resume-b20-sales-to-reduce-fuel-costs-99740.php"
+   ],
+   "snapshot": false
+  },
+  "philippines": {
+   "id": "philippines",
+   "name": "Philippines",
+   "region": "Asia-Pacific",
+   "fuels": "Bioethanol, coco-biodiesel",
+   "policy": "Biofuels Act of 2006 (RA 9367): mandatory blending of locally sourced bioethanol and coco-biodiesel; the National Biofuels Board can recommend adjustments.",
+   "implemented": "Act signed Jan 2007; B1 on effectivity, B2 in 2009, E10 in 2013.",
+   "changes": [
+    "2013 - Nationwide E10 mandate.",
+    "May 2024 - Energy Department circulars: B3 (from Oct 2024 per press), planned B4 (Oct 2025) and B5 (Oct 2026); voluntary E20 allowed.",
+    "2025 - B4/B5 steps suspended after international coconut oil prices rose over 300%.",
+    "Mar 2026 - Committee backed immediate B5; proposed law to suspend blending for up to a year during abnormal price movements and allow biofuel imports above a price threshold.",
+    "Jun 2026 - Agriculture Secretary backed immediate B5."
+   ],
+   "latest": "E10 mandate plus voluntary E20 (only nine E20 stations); B3 in force; B5 not implemented (USDA, Jul 2026).",
+   "pending": "Decision on B5; House Bill 4151 (amending the Biofuels Act); suspension / import bill.",
+   "flags": "B3 start date taken from a May 2024 press headline.",
+   "sources": [
+    "https://mb.com.ph/2026/07/27/philippines-biofuel-growth-hits-brakes-as-high-pump-prices-squeeze-demand",
+    "https://biofuelsdigest.com/philippines-seeks-to-boost-biodiesel-blending-to-5-in-face-of-international-conflicts/",
+    "https://www.philstar.com/business/2024/05/21/2356627/higher-biofuel-blend-takes-effect-october",
+    "https://mb.com.ph/2026/03/17/dl-says-biofuel-suspension-bill-wont-hit-businessfor-now",
+    "https://bioenergytimes.com/?p=19564",
+    "https://grains.org/2024-annual-report/commodities/ethanol/"
+   ],
+   "snapshot": false
+  },
+  "vietnam": {
+   "id": "vietnam",
+   "name": "Vietnam",
+   "region": "Asia-Pacific",
+   "fuels": "Ethanol",
+   "policy": "Roadmap for ethanol-blended gasoline (E5 moving to E10).",
+   "implemented": "E5 gasoline program from 2014-15.",
+   "changes": [
+    "Sep 2025 - Government decided to mandate E10 (reported as tied to US trade balance).",
+    "Nov 2025 - E10 start set for Jun 2026, six months later than first planned.",
+    "11 Feb 2026 - Ministry of Industry and Trade confirmed the switch to ethanol-blended gasoline in 2026.",
+    "1 Jun 2026 - E10 scheduled to become the only gasoline grade sold nationwide."
+   ],
+   "latest": "E10 nationwide from 1 Jun 2026 (as scheduled in Mar 2026 sources).",
+   "pending": "Proposed E15 from 1 Jan 2031 (earlier source).",
+   "flags": "No post-June 2026 implementation report retrieved.",
+   "sources": [
+    "https://www.thestar.com.my/business/business-news/2026/03/11/vietnam-accelerates-biofuel-adoptionamid-energy-supply-concerns",
+    "https://biofuelsdigest.com//bdigest/tag/vietnam",
+    "https://vietnamnet.vn/en/e10-gasoline-rollout-expected-to-cut-reliance-on-mineral-fuel-2497895.html",
+    "https://advancedbiofuelsusa.info/rolling-out-biofuel-mandates",
+    "https://advancedbiofuelsusa.info/asia-s-ethanol-targets-and-recent-developments"
+   ],
+   "snapshot": false
+  },
+  "china": {
+   "id": "china",
+   "name": "China",
+   "region": "Asia-Pacific",
+   "fuels": "Fuel ethanol, biodiesel, SAF",
+   "policy": "E10 fuel ethanol policy (2017 plan) enforced unevenly at provincial level; no national biodiesel mandate.",
+   "implemented": "Ethanol trial provinces from the 2000s†; 13 Sep 2017 national plan for nationwide E10 by 2020.",
+   "changes": [
+    "2017 - Plan to expand E10 from trial provinces to the whole country by 2020.",
+    "Late 2020 - State Council called for controlling ethanol processing capacity; E10 enforcement waned.",
+    "2022 - National average ethanol blend about 1.8%; biodiesel blend only 0.2-0.3%.",
+    "2024-26 - Producers pivoted from biodiesel exports to SAF after EU trade defense measures; SAF capacity about 3.3 Mt/yr; CAAC directives; trials 2026-2030."
+   ],
+   "latest": "No new national ethanol mandate found; E10 remains the official goal; biodiesel receives no mandate (minor tax incentives); SAF deployment still limited.",
+   "pending": "Industry expects a SAF mandate of about 5% by 2030 (not enacted); unofficial talk of an E5 mandate.",
+   "flags": "Much of the evidence is USDA/IEA material through 2022 plus trade press - check the latest USDA China Biofuels Annual.",
+   "sources": [
+    "https://www.ieabioenergy.com/blog/publications/biofuels-production-and-development-in-china/",
+    "https://www.iea.org/policies/26521-production-of-biofuel-ethanol-and-promoting-the-use-of-ethanol-gasoline-for-vehicles",
+    "https://www.oilworld.ru/data/postfiles/323807/Biofuel_China.pdf",
+    "https://www.greenairnews.com/?p=7427",
+    "https://www.spglobal.com/energy/en/news-research/latest-news/agriculture/082925-chinas-biofuels-industry-swivels-to-saf-as-eu-us-trade-row-drags-downstream-sales-to-four-year-low"
+   ],
+   "snapshot": false
+  },
+  "japan": {
+   "id": "japan",
+   "name": "Japan",
+   "region": "Asia-Pacific",
+   "fuels": "Ethanol (mostly as ETBE), SAF",
+   "policy": "Biofuel standard under the Sophisticated Methods Act (500 mn liters crude-oil equivalent per year, about 824 mn liters of ethanol, mostly via ETBE) plus a roadmap to E10 and E20.",
+   "implemented": "2017 (standard under the Act).",
+   "changes": [
+    "Nov 2024 - Government announced E10 by 2030 and E20 by 2040.",
+    "Feb 2025 - 7th Strategic Energy Plan includes a roadmap for nationwide E10 by FY2030.",
+    "10 Jun 2025 - METI action plan: small-scale E10 in Okinawa from FY2028; nationwide E10 option by 2030; biofuel GHG-reduction target 55% (to rise to 60% after a new gasoline life-cycle assessment).",
+    "2024-25 - Annual 824 mn liter target met; average blend 1.9% in 2025."
+   ],
+   "latest": "Annual target maintained to FY2028; voluntary E10 option planned alongside ETBE; SAF goal of 1.2 bn liters (about 10%) by 2030.",
+   "pending": "Nationwide E10 by FY2030; E20 by 2040.",
+   "flags": "",
+   "sources": [
+    "https://www.oilworld.ru/data/postfiles/364774/Biofuels_Annual_Japan_JA2025-0063.pdf",
+    "https://www.fas.usda.gov/data/japan-biofuels-annual-9",
+    "https://www.usdajapan.org/?p=11425",
+    "https://www.iea.org/policies/26131-towards-expanding-the-use-of-bioethanol-as-automobile-fuel",
+    "https://bioenergytimes.com/?p=11254"
+   ],
+   "snapshot": false
+  },
+  "south-korea": {
+   "id": "south-korea",
+   "name": "South Korea",
+   "region": "Asia-Pacific",
+   "fuels": "Biodiesel, SAF",
+   "policy": "Renewable Fuel Standard under the Renewable Energy Act: mandatory biodiesel blend in diesel.",
+   "implemented": "Voluntary blending from 2006; mandatory from 2012; legal RFS obligation 2013; 2.5% from 2015.",
+   "changes": [
+    "2018 - 3.0%.",
+    "Jul 2021 - 3.5%.",
+    "2024 - 4.0%.",
+    "Statutory ladder - 4.5% (2027-29) and 5.0% from 2030."
+   ],
+   "latest": "4.0% biodiesel mandate for 2024-2026.",
+   "pending": "4.5% from 2027 and 5% from 2030 (statute); SAF 1% for international flights from 2027 under consideration.",
+   "flags": "Trade press says the government plans 8% by 2030, which conflicts with the 5% statutory figure.",
+   "sources": [
+    "https://iea-amf.org/app/webroot/files/file/Country_Task_Reports_2024_pdf/2025_Republic%20of%20Korea.pdf",
+    "https://aperc.or.jp/presentations/apec_energy_transition_symposium_series/file/phase2_01/S2-3_Dr_Hyunyoung_Oh.pdf",
+    "https://origin.iea.org/policies/18842-renewable-fuel-standard",
+    "https://bioenergytimes.com/south-korea-hd-hyundai-oilbanks-biodiesel-plant-commences-commercial-operations/",
+    "https://advancedbiofuelsusa.info/biofuels-mandates-around-the-world-2026"
+   ],
+   "snapshot": false
+  },
+  "australia": {
+   "id": "australia",
+   "name": "Australia",
+   "region": "Asia-Pacific",
+   "fuels": "Ethanol, biodiesel, SAF",
+   "policy": "No federal mandate; state mandates in New South Wales and Queensland.",
+   "implemented": "NSW ethanol mandate 2007†; Queensland biofuels mandate 2017†.",
+   "changes": [
+    "Early 2025 - Federal review reportedly confirmed NSW E6/B2 and Queensland E4/B0.5 stay until a national low-carbon fuels framework (2027).",
+    "21 May 2026 - Government said it will introduce biofuel blending mandates and is expediting a public consultation to launch within months, citing energy security."
+   ],
+   "latest": "State mandates in force; a federal mandate is under development.",
+   "pending": "National mandate; industry urges a start before 2029.",
+   "flags": "Early-2025 review detail comes from an aggregator roundup.",
+   "sources": [
+    "https://hydrocarbonprocessing.com/news/2026/05/australia-plans-biofuel-mandates-to-boost-its-energy-security/",
+    "https://biofuelsdigest.com/?p=1001917",
+    "https://advancedbiofuelsusa.info/while-fuel-pumps-ran-dry-australia-sold-megalitres-of-homegrown-fuel-overseas",
+    "https://biofuelsdigest.com/biofuels-mandates-around-the-world-2026/"
+   ],
+   "snapshot": false
+  },
+  "south-africa": {
+   "id": "south-africa",
+   "name": "South Africa",
+   "region": "Africa",
+   "fuels": "Bioethanol, biodiesel",
+   "policy": "Biofuels Regulatory Framework and mandatory blending regulations: minimum 2% bioethanol in petrol and 5% biodiesel in diesel from locally produced biofuels.",
+   "implemented": "Biofuels Industrial Strategy 2007; blending regulations gazetted 23 Aug 2012 (GN R.671), with effect from Oct 2015.",
+   "changes": [
+    "13 Dec 2019 - Cabinet approved the Regulatory Framework; gazetted 7 Feb 2020.",
+    "12 Mar 2021 - Draft amendment blending regulations published for comment.",
+    "2025 - Regulations gazetted / refined.",
+    "2026 - Industry says pricing (a base price) and VAT on sorghum remain hurdles."
+   ],
+   "latest": "Framework and regulations in place; effective implementation still constrained (May-Jun 2026 reporting). An aggregator roundup says implementation was targeted for Jan 2026.",
+   "pending": "Resolution of pricing and subsidy mechanism.",
+   "flags": "Whether the 2025 regulations are in operation is unclear in sources found.",
+   "sources": [
+    "https://engineeringnews.co.za/article/study-indicates-commercial-potential-for-biofuels-but-south-africa-needs-base-price-to-drive-development-2026-05-27",
+    "https://www.iea.org/policies/13383-south-african-biofuels-regulatory-framework",
+    "https://www.gov.za/sites/default/files/gcis_document/202002/43003gon116.pdf",
+    "https://www.mondaq.com/southafrica/renewables/297616/biofuels-in-south-africa",
+    "https://www.gov.za/sites/default/files/gcis_document/202103/44265rg11257gon211.pdf"
+   ],
+   "snapshot": false
+  },
+  "other-africa-snapshot": {
+   "id": "other-africa-snapshot",
+   "name": "Other Africa (snapshot)",
+   "region": "Africa",
+   "fuels": "Ethanol",
+   "policy": "Ethanol blend levels per US Grains Council map: Malawi E10; Mozambique E10; Zimbabwe E20; Nigeria E10; Angola E10; Uganda E1 (E20 by 2030); Egypt E5 by 2030. Ethiopia is developing a national framework with possible mandates for road transport and aviation.",
+   "implemented": "Varies by country (not individually verified).",
+   "changes": [
+    "Not researched country by country."
+   ],
+   "latest": "Levels as listed in the Apr 2025 map.",
+   "pending": "Ethiopia framework expected to progress in 2026; Uganda and Egypt targets.",
+   "flags": "Single industry source; implementation status and dates were not verified.",
+   "sources": [
+    "https://grains.org/wp-content/uploads/2025/04/USGC-Bioethanol-Blending-Map-4.17-Final.pdf",
+    "https://biofuels-news.com/?p=19808"
+   ],
+   "snapshot": false
+  },
+  "snapshot-bolivia": {
+   "id": "snapshot-bolivia",
+   "name": "Bolivia",
+   "region": "Americas",
+   "fuels": "Ethanol",
+   "policy": "Ethanol blend of 25% listed on the US Grains Council bioethanol blending map (Apr 2025). US Grains Council map, Apr 2025.",
+   "implemented": "Not verified.",
+   "changes": [
+    "Not researched country by country."
+   ],
+   "latest": "Ethanol blend level listed as 25%.",
+   "pending": "",
+   "flags": "Single industry source (Apr 2025 snapshot); implementation status and dates were not verified.",
+   "sources": [
+    "https://grains.org/wp-content/uploads/2025/04/USGC-Bioethanol-Blending-Map-4.17-Final.pdf"
+   ],
+   "snapshot": true
+  },
+  "snapshot-peru": {
+   "id": "snapshot-peru",
+   "name": "Peru",
+   "region": "Americas",
+   "fuels": "Ethanol",
+   "policy": "Ethanol blend of 7.8% listed on the US Grains Council bioethanol blending map (Apr 2025). US Grains Council map, Apr 2025.",
+   "implemented": "Not verified.",
+   "changes": [
+    "Not researched country by country."
+   ],
+   "latest": "Ethanol blend level listed as 7.8%.",
+   "pending": "",
+   "flags": "Single industry source (Apr 2025 snapshot); implementation status and dates were not verified.",
+   "sources": [
+    "https://grains.org/wp-content/uploads/2025/04/USGC-Bioethanol-Blending-Map-4.17-Final.pdf"
+   ],
+   "snapshot": true
+  },
+  "snapshot-costa-rica": {
+   "id": "snapshot-costa-rica",
+   "name": "Costa Rica",
+   "region": "Americas",
+   "fuels": "Ethanol",
+   "policy": "Ethanol blend of 10% listed on the US Grains Council bioethanol blending map (Apr 2025). US Grains Council map (E10 in 2025).",
+   "implemented": "Not verified.",
+   "changes": [
+    "Not researched country by country."
+   ],
+   "latest": "Ethanol blend level listed as 10%.",
+   "pending": "",
+   "flags": "Single industry source (Apr 2025 snapshot); implementation status and dates were not verified.",
+   "sources": [
+    "https://grains.org/wp-content/uploads/2025/04/USGC-Bioethanol-Blending-Map-4.17-Final.pdf"
+   ],
+   "snapshot": true
+  },
+  "snapshot-guatemala": {
+   "id": "snapshot-guatemala",
+   "name": "Guatemala",
+   "region": "Americas",
+   "fuels": "Ethanol",
+   "policy": "Ethanol blend of 10% listed on the US Grains Council bioethanol blending map (Apr 2025). US Grains Council map (E10 in 2026).",
+   "implemented": "Not verified.",
+   "changes": [
+    "Not researched country by country."
+   ],
+   "latest": "Ethanol blend level listed as 10%.",
+   "pending": "",
+   "flags": "Single industry source (Apr 2025 snapshot); implementation status and dates were not verified.",
+   "sources": [
+    "https://grains.org/wp-content/uploads/2025/04/USGC-Bioethanol-Blending-Map-4.17-Final.pdf"
+   ],
+   "snapshot": true
+  },
+  "snapshot-panama": {
+   "id": "snapshot-panama",
+   "name": "Panama",
+   "region": "Americas",
+   "fuels": "Ethanol",
+   "policy": "Ethanol blend of 10% listed on the US Grains Council bioethanol blending map (Apr 2025). US Grains Council map (E10 by 2026).",
+   "implemented": "Not verified.",
+   "changes": [
+    "Not researched country by country."
+   ],
+   "latest": "Ethanol blend level listed as 10%.",
+   "pending": "",
+   "flags": "Single industry source (Apr 2025 snapshot); implementation status and dates were not verified.",
+   "sources": [
+    "https://grains.org/wp-content/uploads/2025/04/USGC-Bioethanol-Blending-Map-4.17-Final.pdf"
+   ],
+   "snapshot": true
+  },
+  "snapshot-jamaica": {
+   "id": "snapshot-jamaica",
+   "name": "Jamaica",
+   "region": "Americas",
+   "fuels": "Ethanol",
+   "policy": "Ethanol blend of 10% listed on the US Grains Council bioethanol blending map (Apr 2025). US Grains Council map.",
+   "implemented": "Not verified.",
+   "changes": [
+    "Not researched country by country."
+   ],
+   "latest": "Ethanol blend level listed as 10%.",
+   "pending": "",
+   "flags": "Single industry source (Apr 2025 snapshot); implementation status and dates were not verified.",
+   "sources": [
+    "https://grains.org/wp-content/uploads/2025/04/USGC-Bioethanol-Blending-Map-4.17-Final.pdf"
+   ],
+   "snapshot": true
+  },
+  "snapshot-uruguay": {
+   "id": "snapshot-uruguay",
+   "name": "Uruguay",
+   "region": "Americas",
+   "fuels": "Ethanol",
+   "policy": "Ethanol blend of 10% listed on the US Grains Council bioethanol blending map (Apr 2025). US Grains Council map.",
+   "implemented": "Not verified.",
+   "changes": [
+    "Not researched country by country."
+   ],
+   "latest": "Ethanol blend level listed as 10%.",
+   "pending": "",
+   "flags": "Single industry source (Apr 2025 snapshot); implementation status and dates were not verified.",
+   "sources": [
+    "https://grains.org/wp-content/uploads/2025/04/USGC-Bioethanol-Blending-Map-4.17-Final.pdf"
+   ],
+   "snapshot": true
+  },
+  "snapshot-malawi": {
+   "id": "snapshot-malawi",
+   "name": "Malawi",
+   "region": "Africa",
+   "fuels": "Ethanol",
+   "policy": "Ethanol blend of 10% listed on the US Grains Council bioethanol blending map (Apr 2025). US Grains Council map.",
+   "implemented": "Not verified.",
+   "changes": [
+    "Not researched country by country."
+   ],
+   "latest": "Ethanol blend level listed as 10%.",
+   "pending": "",
+   "flags": "Single industry source (Apr 2025 snapshot); implementation status and dates were not verified.",
+   "sources": [
+    "https://grains.org/wp-content/uploads/2025/04/USGC-Bioethanol-Blending-Map-4.17-Final.pdf"
+   ],
+   "snapshot": true
+  },
+  "snapshot-mozambique": {
+   "id": "snapshot-mozambique",
+   "name": "Mozambique",
+   "region": "Africa",
+   "fuels": "Ethanol",
+   "policy": "Ethanol blend of 10% listed on the US Grains Council bioethanol blending map (Apr 2025). US Grains Council map.",
+   "implemented": "Not verified.",
+   "changes": [
+    "Not researched country by country."
+   ],
+   "latest": "Ethanol blend level listed as 10%.",
+   "pending": "",
+   "flags": "Single industry source (Apr 2025 snapshot); implementation status and dates were not verified.",
+   "sources": [
+    "https://grains.org/wp-content/uploads/2025/04/USGC-Bioethanol-Blending-Map-4.17-Final.pdf"
+   ],
+   "snapshot": true
+  },
+  "snapshot-zimbabwe": {
+   "id": "snapshot-zimbabwe",
+   "name": "Zimbabwe",
+   "region": "Africa",
+   "fuels": "Ethanol",
+   "policy": "Ethanol blend of 20% listed on the US Grains Council bioethanol blending map (Apr 2025). US Grains Council map.",
+   "implemented": "Not verified.",
+   "changes": [
+    "Not researched country by country."
+   ],
+   "latest": "Ethanol blend level listed as 20%.",
+   "pending": "",
+   "flags": "Single industry source (Apr 2025 snapshot); implementation status and dates were not verified.",
+   "sources": [
+    "https://grains.org/wp-content/uploads/2025/04/USGC-Bioethanol-Blending-Map-4.17-Final.pdf"
+   ],
+   "snapshot": true
+  },
+  "snapshot-nigeria": {
+   "id": "snapshot-nigeria",
+   "name": "Nigeria",
+   "region": "Africa",
+   "fuels": "Ethanol",
+   "policy": "Ethanol blend of 10% listed on the US Grains Council bioethanol blending map (Apr 2025). US Grains Council map.",
+   "implemented": "Not verified.",
+   "changes": [
+    "Not researched country by country."
+   ],
+   "latest": "Ethanol blend level listed as 10%.",
+   "pending": "",
+   "flags": "Single industry source (Apr 2025 snapshot); implementation status and dates were not verified.",
+   "sources": [
+    "https://grains.org/wp-content/uploads/2025/04/USGC-Bioethanol-Blending-Map-4.17-Final.pdf"
+   ],
+   "snapshot": true
+  },
+  "snapshot-angola": {
+   "id": "snapshot-angola",
+   "name": "Angola",
+   "region": "Africa",
+   "fuels": "Ethanol",
+   "policy": "Ethanol blend of 10% listed on the US Grains Council bioethanol blending map (Apr 2025). US Grains Council map.",
+   "implemented": "Not verified.",
+   "changes": [
+    "Not researched country by country."
+   ],
+   "latest": "Ethanol blend level listed as 10%.",
+   "pending": "",
+   "flags": "Single industry source (Apr 2025 snapshot); implementation status and dates were not verified.",
+   "sources": [
+    "https://grains.org/wp-content/uploads/2025/04/USGC-Bioethanol-Blending-Map-4.17-Final.pdf"
+   ],
+   "snapshot": true
+  },
+  "snapshot-uganda": {
+   "id": "snapshot-uganda",
+   "name": "Uganda",
+   "region": "Africa",
+   "fuels": "Ethanol",
+   "policy": "Ethanol blend of 1% listed on the US Grains Council bioethanol blending map (Apr 2025). US Grains Council map; E20 targeted by 2030.",
+   "implemented": "Not verified.",
+   "changes": [
+    "Not researched country by country."
+   ],
+   "latest": "Ethanol blend level listed as 1%.",
+   "pending": "",
+   "flags": "Single industry source (Apr 2025 snapshot); implementation status and dates were not verified.",
+   "sources": [
+    "https://grains.org/wp-content/uploads/2025/04/USGC-Bioethanol-Blending-Map-4.17-Final.pdf"
+   ],
+   "snapshot": true
+  },
+  "snapshot-mexico": {
+   "id": "snapshot-mexico",
+   "name": "Mexico",
+   "region": "Americas",
+   "fuels": "Ethanol",
+   "policy": "Ethanol blending policy listed on the US Grains Council map (Apr 2025); the source says it applies outside Mexico City, Monterrey and Guadalajara. Details were truncated in the source.",
+   "implemented": "Not verified.",
+   "changes": [
+    "Not researched country by country."
+   ],
+   "latest": "Details not confirmed.",
+   "pending": "",
+   "flags": "Single industry source with truncated detail; verify before use.",
+   "sources": [
+    "https://grains.org/wp-content/uploads/2025/04/USGC-Bioethanol-Blending-Map-4.17-Final.pdf"
+   ],
+   "snapshot": true
+  },
+  "snapshot-egypt": {
+   "id": "snapshot-egypt",
+   "name": "Egypt",
+   "region": "Africa",
+   "fuels": "Ethanol",
+   "policy": "Ethanol blend target of E5 by 2030 per the US Grains Council map (Apr 2025).",
+   "implemented": "Not verified.",
+   "changes": [
+    "Not researched country by country."
+   ],
+   "latest": "Target only (E5 by 2030); no in-force mandate confirmed.",
+   "pending": "E5 by 2030.",
+   "flags": "Single industry source; verify before use.",
+   "sources": [
+    "https://grains.org/wp-content/uploads/2025/04/USGC-Bioethanol-Blending-Map-4.17-Final.pdf"
+   ],
+   "snapshot": true
+  },
+  "snapshot-ethiopia": {
+   "id": "snapshot-ethiopia",
+   "name": "Ethiopia",
+   "region": "Africa",
+   "fuels": "Biofuels",
+   "policy": "Developing a national biofuel framework; possible mandates for road transport and aviation (trade press roundup).",
+   "implemented": "Not yet enacted.",
+   "changes": [
+    "Framework expected to progress in 2026."
+   ],
+   "latest": "No enacted mandate found.",
+   "pending": "National biofuel framework with possible road-transport and aviation mandates.",
+   "flags": "Single trade-press roundup; verify before use.",
+   "sources": [
+    "https://biofuels-news.com/?p=19808"
+   ],
+   "snapshot": true
+  }
+ },
+ "countries": {
+  "United States of America": {
+   "entries": [
+    "united-states-renewable-fuel-standard-federal",
+    "united-states-tax-credits-45z-and-e15-rules-federal",
+    "united-states-california-low-carbon-fuel-standard"
+   ],
+   "status": "enacted",
+   "blendNote": "No fixed national blend: the federal RFS sets annual volume obligations."
+  },
+  "Canada": {
+   "entries": [
+    "canada"
+   ],
+   "status": "enacted",
+   "ethanol": 5,
+   "biodiesel": 2,
+   "blendNote": "Minimum renewable content in gasoline / diesel; provinces add higher or domestic-content rules (e.g. BC diesel 8%)."
+  },
+  "Brazil": {
+   "entries": [
+    "brazil"
+   ],
+   "status": "enacted",
+   "ethanol": 30,
+   "biodiesel": 15,
+   "blendNote": "E30 / B15 since 1 Aug 2025. Temporary E32 approved 14 Jul 2026 (effective date unconfirmed)."
+  },
+  "Argentina": {
+   "entries": [
+    "argentina"
+   ],
+   "status": "enacted",
+   "ethanol": 12,
+   "biodiesel": 7.5,
+   "blendNote": "Law 27,640, valid to 2030. Up to 15% ethanol allowed voluntarily since Mar 2026."
+  },
+  "Paraguay": {
+   "entries": [
+    "paraguay"
+   ],
+   "status": "enacted",
+   "ethanol": 30,
+   "biodiesel": 7,
+   "blendNote": "Ethanol E30 since Mar 2025; May 2026 law conflicting reports. Biodiesel 7% to 31 Dec 2026."
+  },
+  "Colombia": {
+   "entries": [
+    "colombia"
+   ],
+   "status": "enacted",
+   "ethanol": 10,
+   "biodiesel": 10,
+   "blendNote": "USDA 2026 report: B10 unchanged."
+  },
+  "Germany": {
+   "entries": [
+    "germany",
+    "european-union-red-iii",
+    "uk-and-eu-saf-mandates-aviation"
+   ],
+   "status": "enacted"
+  },
+  "France": {
+   "entries": [
+    "france",
+    "european-union-red-iii",
+    "uk-and-eu-saf-mandates-aviation"
+   ],
+   "status": "enacted"
+  },
+  "Ireland": {
+   "entries": [
+    "ireland",
+    "european-union-red-iii",
+    "uk-and-eu-saf-mandates-aviation"
+   ],
+   "status": "enacted"
+  },
+  "Spain": {
+   "entries": [
+    "spain",
+    "european-union-red-iii",
+    "uk-and-eu-saf-mandates-aviation"
+   ],
+   "status": "enacted",
+   "note": "National RED III transposition is still a draft; EU-level rules apply."
+  },
+  "Netherlands": {
+   "entries": [
+    "netherlands",
+    "european-union-red-iii",
+    "uk-and-eu-saf-mandates-aviation"
+   ],
+   "status": "enacted",
+   "note": "National RED III reform was still in draft in the latest source found (late 2025)."
+  },
+  "United Kingdom": {
+   "entries": [
+    "united-kingdom-renewable-transport-fuel-obligation",
+    "uk-and-eu-saf-mandates-aviation"
+   ],
+   "status": "enacted"
+  },
+  "India": {
+   "entries": [
+    "india"
+   ],
+   "status": "enacted",
+   "ethanol": 20,
+   "biodiesel": null,
+   "blendNote": "E20 nationwide from 1 Apr 2026. Biodiesel: 5% target by 2030 (not in force)."
+  },
+  "Indonesia": {
+   "entries": [
+    "indonesia"
+   ],
+   "status": "enacted",
+   "ethanol": null,
+   "biodiesel": 50,
+   "blendNote": "B50 from 1 Jul 2026 (three-month transition); B40 in Jan-Jun 2026. Ethanol: E3 allowance only."
+  },
+  "Malaysia": {
+   "entries": [
+    "malaysia"
+   ],
+   "status": "enacted",
+   "ethanol": null,
+   "biodiesel": 15,
+   "blendNote": "B15 in Peninsular Malaysia from 1 Jun 2026; B20 in some regions."
+  },
+  "Thailand": {
+   "entries": [
+    "thailand"
+   ],
+   "status": "enacted",
+   "ethanol": 10,
+   "biodiesel": 7,
+   "blendNote": "E10 base, E20 promoted; diesel base B7 from 14 Mar 2026 (B20 also sold)."
+  },
+  "Philippines": {
+   "entries": [
+    "philippines"
+   ],
+   "status": "enacted",
+   "ethanol": 10,
+   "biodiesel": 3,
+   "blendNote": "E20 voluntary; B4/B5 steps suspended."
+  },
+  "Vietnam": {
+   "entries": [
+    "vietnam"
+   ],
+   "status": "enacted",
+   "ethanol": 10,
+   "biodiesel": null,
+   "blendNote": "E10 as the only gasoline grade from 1 Jun 2026 (scheduled)."
+  },
+  "China": {
+   "entries": [
+    "china"
+   ],
+   "status": "enacted",
+   "ethanol": 10,
+   "biodiesel": null,
+   "blendNote": "E10 is the official goal; actual national average about 1.8% (2022). No biodiesel mandate."
+  },
+  "Japan": {
+   "entries": [
+    "japan"
+   ],
+   "status": "enacted",
+   "ethanol": null,
+   "biodiesel": null,
+   "blendNote": "No fixed blend; volume standard (mostly ETBE). Target E10 by 2030, E20 by 2040."
+  },
+  "South Korea": {
+   "entries": [
+    "south-korea"
+   ],
+   "status": "enacted",
+   "ethanol": null,
+   "biodiesel": 4,
+   "blendNote": "4.0% biodiesel 2024-26; 4.5% from 2027; 5% from 2030."
+  },
+  "Australia": {
+   "entries": [
+    "australia"
+   ],
+   "status": "enacted",
+   "blendNote": "State mandates only: New South Wales E6/B2, Queensland E4/B0.5. No federal mandate yet."
+  },
+  "South Africa": {
+   "entries": [
+    "south-africa"
+   ],
+   "status": "enacted",
+   "ethanol": 2,
+   "biodiesel": 5,
+   "blendNote": "Minimum levels in the blending regulations; implementation constrained."
+  },
+  "Austria": {
+   "entries": [
+    "european-union-red-iii",
+    "uk-and-eu-saf-mandates-aviation"
+   ],
+   "status": "enacted",
+   "note": "No national entry researched yet. The EU-level RED III rules apply; national transposition varies."
+  },
+  "Belgium": {
+   "entries": [
+    "european-union-red-iii",
+    "uk-and-eu-saf-mandates-aviation"
+   ],
+   "status": "enacted",
+   "note": "No national entry researched yet. The EU-level RED III rules apply; national transposition varies."
+  },
+  "Bulgaria": {
+   "entries": [
+    "european-union-red-iii",
+    "uk-and-eu-saf-mandates-aviation"
+   ],
+   "status": "enacted",
+   "note": "No national entry researched yet. The EU-level RED III rules apply; national transposition varies."
+  },
+  "Croatia": {
+   "entries": [
+    "european-union-red-iii",
+    "uk-and-eu-saf-mandates-aviation"
+   ],
+   "status": "enacted",
+   "note": "No national entry researched yet. The EU-level RED III rules apply; national transposition varies."
+  },
+  "Cyprus": {
+   "entries": [
+    "european-union-red-iii",
+    "uk-and-eu-saf-mandates-aviation"
+   ],
+   "status": "enacted",
+   "note": "No national entry researched yet. The EU-level RED III rules apply; national transposition varies."
+  },
+  "Czechia": {
+   "entries": [
+    "european-union-red-iii",
+    "uk-and-eu-saf-mandates-aviation"
+   ],
+   "status": "enacted",
+   "note": "No national entry researched yet. The EU-level RED III rules apply; national transposition varies."
+  },
+  "Denmark": {
+   "entries": [
+    "european-union-red-iii",
+    "uk-and-eu-saf-mandates-aviation"
+   ],
+   "status": "enacted",
+   "note": "No national entry researched yet. The EU-level RED III rules apply; national transposition varies."
+  },
+  "Estonia": {
+   "entries": [
+    "european-union-red-iii",
+    "uk-and-eu-saf-mandates-aviation"
+   ],
+   "status": "enacted",
+   "note": "No national entry researched yet. The EU-level RED III rules apply; national transposition varies."
+  },
+  "Finland": {
+   "entries": [
+    "european-union-red-iii",
+    "uk-and-eu-saf-mandates-aviation"
+   ],
+   "status": "enacted",
+   "note": "No national entry researched yet. The EU-level RED III rules apply; national transposition varies."
+  },
+  "Greece": {
+   "entries": [
+    "european-union-red-iii",
+    "uk-and-eu-saf-mandates-aviation"
+   ],
+   "status": "enacted",
+   "note": "No national entry researched yet. The EU-level RED III rules apply; national transposition varies."
+  },
+  "Hungary": {
+   "entries": [
+    "european-union-red-iii",
+    "uk-and-eu-saf-mandates-aviation"
+   ],
+   "status": "enacted",
+   "note": "No national entry researched yet. The EU-level RED III rules apply; national transposition varies."
+  },
+  "Italy": {
+   "entries": [
+    "european-union-red-iii",
+    "uk-and-eu-saf-mandates-aviation"
+   ],
+   "status": "enacted",
+   "note": "No national entry researched yet. The EU-level RED III rules apply; national transposition varies."
+  },
+  "Latvia": {
+   "entries": [
+    "european-union-red-iii",
+    "uk-and-eu-saf-mandates-aviation"
+   ],
+   "status": "enacted",
+   "note": "No national entry researched yet. The EU-level RED III rules apply; national transposition varies."
+  },
+  "Lithuania": {
+   "entries": [
+    "european-union-red-iii",
+    "uk-and-eu-saf-mandates-aviation"
+   ],
+   "status": "enacted",
+   "note": "No national entry researched yet. The EU-level RED III rules apply; national transposition varies."
+  },
+  "Luxembourg": {
+   "entries": [
+    "european-union-red-iii",
+    "uk-and-eu-saf-mandates-aviation"
+   ],
+   "status": "enacted",
+   "note": "No national entry researched yet. The EU-level RED III rules apply; national transposition varies."
+  },
+  "Poland": {
+   "entries": [
+    "european-union-red-iii",
+    "uk-and-eu-saf-mandates-aviation"
+   ],
+   "status": "enacted",
+   "note": "No national entry researched yet. The EU-level RED III rules apply; national transposition varies."
+  },
+  "Portugal": {
+   "entries": [
+    "european-union-red-iii",
+    "uk-and-eu-saf-mandates-aviation"
+   ],
+   "status": "enacted",
+   "note": "No national entry researched yet. The EU-level RED III rules apply; national transposition varies."
+  },
+  "Romania": {
+   "entries": [
+    "european-union-red-iii",
+    "uk-and-eu-saf-mandates-aviation"
+   ],
+   "status": "enacted",
+   "note": "No national entry researched yet. The EU-level RED III rules apply; national transposition varies."
+  },
+  "Slovakia": {
+   "entries": [
+    "european-union-red-iii",
+    "uk-and-eu-saf-mandates-aviation"
+   ],
+   "status": "enacted",
+   "note": "No national entry researched yet. The EU-level RED III rules apply; national transposition varies."
+  },
+  "Slovenia": {
+   "entries": [
+    "european-union-red-iii",
+    "uk-and-eu-saf-mandates-aviation"
+   ],
+   "status": "enacted",
+   "note": "No national entry researched yet. The EU-level RED III rules apply; national transposition varies."
+  },
+  "Sweden": {
+   "entries": [
+    "european-union-red-iii",
+    "uk-and-eu-saf-mandates-aviation"
+   ],
+   "status": "enacted",
+   "note": "No national entry researched yet. The EU-level RED III rules apply; national transposition varies."
+  },
+  "Bolivia": {
+   "entries": [
+    "snapshot-bolivia"
+   ],
+   "status": "enacted",
+   "ethanol": 25,
+   "biodiesel": null,
+   "blendNote": "US Grains Council map, Apr 2025."
+  },
+  "Peru": {
+   "entries": [
+    "snapshot-peru"
+   ],
+   "status": "enacted",
+   "ethanol": 7.8,
+   "biodiesel": null,
+   "blendNote": "US Grains Council map, Apr 2025."
+  },
+  "Costa Rica": {
+   "entries": [
+    "snapshot-costa-rica"
+   ],
+   "status": "enacted",
+   "ethanol": 10,
+   "biodiesel": null,
+   "blendNote": "US Grains Council map (E10 in 2025)."
+  },
+  "Guatemala": {
+   "entries": [
+    "snapshot-guatemala"
+   ],
+   "status": "enacted",
+   "ethanol": 10,
+   "biodiesel": null,
+   "blendNote": "US Grains Council map (E10 in 2026)."
+  },
+  "Panama": {
+   "entries": [
+    "snapshot-panama"
+   ],
+   "status": "enacted",
+   "ethanol": 10,
+   "biodiesel": null,
+   "blendNote": "US Grains Council map (E10 by 2026)."
+  },
+  "Jamaica": {
+   "entries": [
+    "snapshot-jamaica"
+   ],
+   "status": "enacted",
+   "ethanol": 10,
+   "biodiesel": null,
+   "blendNote": "US Grains Council map."
+  },
+  "Uruguay": {
+   "entries": [
+    "snapshot-uruguay"
+   ],
+   "status": "enacted",
+   "ethanol": 10,
+   "biodiesel": null,
+   "blendNote": "US Grains Council map."
+  },
+  "Malawi": {
+   "entries": [
+    "snapshot-malawi"
+   ],
+   "status": "enacted",
+   "ethanol": 10,
+   "biodiesel": null,
+   "blendNote": "US Grains Council map."
+  },
+  "Mozambique": {
+   "entries": [
+    "snapshot-mozambique"
+   ],
+   "status": "enacted",
+   "ethanol": 10,
+   "biodiesel": null,
+   "blendNote": "US Grains Council map."
+  },
+  "Zimbabwe": {
+   "entries": [
+    "snapshot-zimbabwe"
+   ],
+   "status": "enacted",
+   "ethanol": 20,
+   "biodiesel": null,
+   "blendNote": "US Grains Council map."
+  },
+  "Nigeria": {
+   "entries": [
+    "snapshot-nigeria"
+   ],
+   "status": "enacted",
+   "ethanol": 10,
+   "biodiesel": null,
+   "blendNote": "US Grains Council map."
+  },
+  "Angola": {
+   "entries": [
+    "snapshot-angola"
+   ],
+   "status": "enacted",
+   "ethanol": 10,
+   "biodiesel": null,
+   "blendNote": "US Grains Council map."
+  },
+  "Uganda": {
+   "entries": [
+    "snapshot-uganda"
+   ],
+   "status": "enacted",
+   "ethanol": 1,
+   "biodiesel": null,
+   "blendNote": "US Grains Council map; E20 targeted by 2030."
+  },
+  "Mexico": {
+   "entries": [
+    "snapshot-mexico"
+   ],
+   "status": "enacted"
+  },
+  "Egypt": {
+   "entries": [
+    "snapshot-egypt"
+   ],
+   "status": "planned"
+  },
+  "Ethiopia": {
+   "entries": [
+    "snapshot-ethiopia"
+   ],
+   "status": "planned"
+  }
+ }
+}
